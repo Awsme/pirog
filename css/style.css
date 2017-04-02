@@ -448,6 +448,14 @@ div[class*="col-"] {
   line-height: 30px;
   font-size: 15px;
 }
+.content-main_info .list-title {
+  color: #2e3034;
+  font-size: 22px;
+  line-height: 48px;
+  letter-spacing: -0.1px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
 .content-main_info-title {
   margin-bottom: 25px;
   color: #171718;

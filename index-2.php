@@ -15,6 +15,14 @@
 	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script type="text/javascript" src="js/slick.min.js"></script>
 
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+	<script>
+		$( function() {
+			$( "#accordion, #accordion-2" ).accordion();
+		} );
+	</script>
 </head>
 <body>
 	<div class="wrapper">
@@ -92,131 +100,118 @@
 				</section>
 			</div>
 		</div>
-		
 		<section class="content">
-			<div class="container">
-				<div class="content-main_info">
-					<div class="content-main_info-title">
-						<img src="images/content-img-1.png" alt="">
-						<h3>Домашний тест на отцовство и/или материнство</h3>
-					</div>
-					<p>
-						Комплект для тестирования ДНК для дома обеспечит конфиденциальность и точность, которые вы ищете вКомфорт вашего дома. Если вам интересно, тест поможет вам успокоиться. Домашнее тестирование на отцовство Самое простое и доступное решение. Образцы собираются в С химической точки зрения ДНК — это длинная полимерная молекула, состоящая из повторяющихся блоков <br>— нуклеотидов. Каждый нуклеотид состоит из азотистого основания, сахара (дезоксирибозы) и фосфатной группы.
-					</p>
-				</div>
-				<div class="content-main_info-detailed clearfix">
-					<div class="col-4">
-						<div class="content-main_info-detailed-block">
-							<div class="content-main_info-detailed-block-head">
-								<img src="images/content-icon-1.png" alt="">
-								<h3>Быстро</h3>
+			<div class="container clearfix">
+				<div class="col-8">
+					<div class="content-main_info clearfix">
+						<div class="col-6">
+							<h3 class="list-title">Основные вопросы</h3>
+							<div id="accordion">
+								<h4>В русском языке, если вопрос произносят, то используют вопросительную</h4>
+								<div><p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p></div>
+								<h4>В русском языке, если вопрос произносят, то используют вопросительную</h4>
+								<div><p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p></div>
+								<h4>В русском языке, если вопрос произносят, то используют вопросительную</h4>
+								<div><p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p></div>
+								<h4>В русском языке, если вопрос произносят, то используют вопросительную</h4>
+								<div><p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p></div>
+
+
+								<!-- <h3>На какой вопрос нельзя ответить утвердительно</h3>
+								<div>
+									<p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
+								</div>
+								<h3>В русском языке, если вопрос произносят, то используют вопросительную</h3>
+								<div>
+									<p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
+								</div>
+								<h3>На какой вопрос нельзя ответить утвердительно</h3>
+								<div>
+									<p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
+								</div> -->
+								<!-- <h3>Section 3</h3>
+								<div>
+									<p>
+									Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+									Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+									ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+									lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+									</p>
+									<ul>
+										<li>List item one</li>
+										<li>List item two</li>
+										<li>List item three</li>
+									</ul>
+								</div>
+								<h3>Section 4</h3>
+								<div>
+									<p>
+									Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+									et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+									faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+									mauris vel est.
+									</p>
+									<p>
+									Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+									Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+									inceptos himenaeos.
+									</p>
+								</div> -->
 							</div>
-							<div class="content-main_info-detailed-block-descr">
-								Более длительные сроки обработки Означает более короткое ожидание вашего Результаты ДНК-теста. Чем меньше времени Вы ждете, меньше стресса И тем быстрее вы можете двигаться дальше.
+						</div>
+						<div class="col-6">
+							<div id="accordion-2">
+								<h3>Section 1</h3>
+								<div>
+									<p>
+									Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+									ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+									amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+									odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+									</p>
+								</div>
+								<h3>Section 2</h3>
+								<div>
+									<p>
+									Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+									purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+									velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+									suscipit faucibus urna.
+									</p>
+								</div>
+								<h3>Section 3</h3>
+								<div>
+									<p>
+									Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+									Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+									ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+									lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+									</p>
+									<ul>
+										<li>List item one</li>
+										<li>List item two</li>
+										<li>List item three</li>
+									</ul>
+								</div>
+								<h3>Section 4</h3>
+								<div>
+									<p>
+									Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+									et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+									faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+									mauris vel est.
+									</p>
+									<p>
+									Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+									Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+									inceptos himenaeos.
+									</p>
+								</div>
 							</div>
-						</div>
-					</div>
-					<div class="col-4">
-						<div class="content-main_info-detailed-block">
-							<div class="content-main_info-detailed-block-head">
-								<img src="images/content-icon-2.png" alt="">
-								<h3>Точно</h3>
-							</div>
-							<div class="content-main_info-detailed-block-descr">
-								Точные результаты означают нахождение Закрытие с полным душевным спокойствием. Испытательные лаборатории Аккредитована ISO17025, которая Золотой стандарт в тестировании ДНК Аккредитации.
-							</div>
-						</div>
-					</div>
-					<div class="col-4">
-						<div class="content-main_info-detailed-block">
-							<div class="content-main_info-detailed-block-head">
-								<img src="images/content-icon-3.png" alt="">
-								<h3>Анонимно</h3>
-							</div>
-							<div class="content-main_info-detailed-block-descr">
-								HomeDNAВыполнить непоколебимо Обеспечивает самого строгого клиента Конфиденциальности и конфиденциальности. Мы Знать, что такое конфиденциальность О том, что это значит для вас.
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="content-main_info-detailed-advantages clearfix">
-					<div class="col-4">
-						<img src="images/content-icon-4.png" alt="">
-						<div class="content-main_info-detailed-advantages-title">
-							<h3>В компалекте</h3>
-							<p>Для тестирования заказа</p>
-						</div>
-					</div>
-					<div class="col-4">
-						<img src="images/content-icon-5.png" alt="">
-						<div class="content-main_info-detailed-advantages-title">
-							<h3>Удобный способы</h3>
-							<p>Оплаты и доставки</p>
-						</div>
-					</div>
-					<div class="col-4">
-						<img src="images/content-icon-6.png" alt="">
-						<div class="content-main_info-detailed-advantages-title">
-							<h3>Гарантируем</h3>
-							<p>Правильный результат</p>
-						</div>
-					</div>
-				</div>
-				<div class="content-main_info-offers offers-first clearfix">
-					<div class="col-6">
-						<div class="content-main_info-offers-img">
-							<img src="images/content-img-2.png" alt="">
-						</div>
-					</div>
-					<div class="col-6">
-						<div class="content-main_info-offers-title">
-							<h3>Доступно для каждого выгодные условия для всех</h3>
-							<p>Наш тестовый комплект для отцовства удобно доступен В крупных аптеках и суперцентрах По всей стране, включая CVS, Rite Aid и Walmart. Если вам нужно вспомнить, вас не будет Взимается больше. Найти магазин.
-							</p>
-							<a href="#" class="btn btn-medium btn-style-2">Связаться с нами</a>
-						</div>
-					</div>					
-				</div>
-				<div class="content-main_info-offers offers-second clearfix">
-					<div class="col-6">
-						<div class="content-main_info-offers-title">
-							<h3>Дружелюбное обслуживание клиентов. Чтобы ответить на ВСЕ ваши важные вопросы</h3>
-							<span>500 Р. Набор для тестирования + 6000 Р. Лабораторный сбор = 6500 Р.</span>
-							<p>Наше высококвалифицированное обслуживание клиентов Представители действительно единственные в своем роде, предлагая Помочь на всем пути от принятия решения о Отцовство тест через понимание вашего теста Результаты. Свяжитесь с нами.
-							</p>
-							<a href="#" class="btn btn-medium btn-style-2">Связаться с нами</a>
-						</div>
-					</div>
-					<div class="col-6">
-						<div class="content-main_info-offers-img">
-							<img src="images/content-img-2.png" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="content-main_info-order clearfix">
-					<div class="col-4">
-						<div class="content-main_info-order-icon">
-							<img src="images/content-img-4.png" alt="">
-						</div>
-					</div>
-					<div class="col-8">
-						<div class="content-main_info-order-title">
-							<h4>Мы гарантируем 99,99% результат и точно в срок</h4>
-							<h3>Закажите тест у нас и получите точный результат в срок!</h3>
-							<a href="#">Связаться с нами</a>
-						</div>
+						</div>						
 					</div>
 				</div>
-				<div class="content-main_info-feedback clearfix">
-					<h3>Мы всегда работаем на совесть</h3>
-					<h4>Фотографии наших клиентов  1 / 20</h4>
-					<div class="content-main_info-carousel">
-						<div><img src="images/content-carousel-img-1.png" alt=""></div>
-						<div><img src="images/content-carousel-img-1.png" alt=""></div>
-						<div><img src="images/content-carousel-img-1.png" alt=""></div>
-						<div><img src="images/content-carousel-img-1.png" alt=""></div>
-					</div>
-					<a href="#" class="btn btn-medium btn-style-1">Заказать сейчас</a>
+				<div class="col-4">
 				</div>
 			</div>
 		</section>
