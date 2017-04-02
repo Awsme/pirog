@@ -59,7 +59,7 @@
 						<ul class="header-bottom-nav">
 							<li><a href="#">Главная</a></li>
 							<li><a href="#">ДНК-Тест</a></li>
-							<li><a href="index-2.php" class="active">Вопросы-Ответы</a></li>
+							<li><a href="" class="active">Вопросы-Ответы</a></li>
 							<li><a href="#">О компании</a></li>
 							<li><a href="#">Контактные данные</a></li>
 						</ul>
@@ -72,49 +72,23 @@
 				</div>
 				<section class="top-content">
 					<div class="row clearfix">
-						<div class="col-4">
-							<img src="images/top-content-img-1.png" alt="">
+						<div class="col-2">
+							<div class="top-content-page-icon">
+								<img src="images/faq-icon-1.png" alt="">
+							</div>
 						</div>
-						<div class="col-8">
+						<div class="col-10">
 							<div class="top-content-info">
-								<h3>Анализ ДНК на отцовство, материнство</h3>
-								<div class="top-content-info-descr">Мы предлагаем простой, доступный, 21 генетический маркер домой Тестирование отцовства на 6500 рублей, С результатами в течение 6 рабочих дней с момента получения образцов<br> И более 99,99% точности.</div>
-								<div class="top-content-info-buy_now">
-									<a href="#">Заказать сейчас</a>
+								<div class="top-content-breadcrumbs">
+									<ul class="clearfix">
+										<li><a href="#">Главная</a></li>
+										<li><a href="#" class="active">Вопросы-ответы</a></li>
+									</ul>
 								</div>
-								<div class="top-content-info-old_price">6500 Р</div>
+								<h3>Часто задаваемые вопросы-ответы</h3>
 							</div>
 						</div>
 					</div>
-					<div class="top-content-offers clearfix">
-						<div class="col-4">
-							<div class="top-content-offers-item">
-								<img src="images/top-content-img-2.png" alt="">
-								<div class="top-content-offers-item-title">
-									<span class="top-content-offers-item-title-head">Мы гарантируем</span>
-									<span class="top-content-offers-item-title-descr">99,99% точность</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-4">
-							<div class="top-content-offers-item">
-								<img src="images/top-content-img-3.png" alt="">
-								<div class="top-content-offers-item-title">
-									<span class="top-content-offers-item-title-head">Срок выполнения</span>
-									<span class="top-content-offers-item-title-descr">Всего 6 дней</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-4">
-							<div class="top-content-offers-item">
-								<img src="images/top-content-img-4.png" alt="">
-								<div class="top-content-offers-item-title">
-									<span class="top-content-offers-item-title-head">Нам доверяют</span>
-									<span class="top-content-offers-item-title-descr">более 1009 клиентов</span>
-								</div>
-							</div>
-						</div>
-					</div>				
 				</section>
 			</div>
 		</div>
