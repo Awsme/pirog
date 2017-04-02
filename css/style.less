@@ -379,7 +379,7 @@ div[class*="col-"] {
 			line-height: 30px;
 			font-size: 15px;
 		}
-		.list-title {
+		.accordion-title {
 			color: #2e3034;
 			font-size: 22px;
 			line-height: 48px;
@@ -559,6 +559,9 @@ div[class*="col-"] {
 		&-carousel {
 			margin-bottom: 30px;
 		}
+		&-faq {
+			padding: 40px;
+		}
 	}
 }
 .footer {
@@ -674,6 +677,55 @@ div[class*="col-"] {
 		}
 		&-btn {
 			float: right;
+		}
+	}
+}
+
+/*----- Accordion -----*/
+.accordion, .accordion * {
+    -webkit-box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+    box-sizing:border-box;
+}
+ 
+.accordion {
+    overflow:hidden;
+    &-section {
+    	&-title {
+    		position: relative;
+		    width:100%;
+		    padding:15px 25px;
+		    display: inline-block;
+		    border-bottom:1px solid #eff1f3;
+		    transition: all linear 0.15s;
+		    font-size: 15px;
+		    color:#25253c;
+		    &:before {
+		    	content: "";
+		    	position: absolute;
+		    	left: 0;
+		    	top: 50%;
+		    	transform: translateY(-50%);
+		    	-webkit-transform: translateY(-50%);
+		    	display: block;
+		    	width: 15px;
+		    	height: 16px;
+		    	background: url('../images/accordion-faq-icon.png');
+		    }
+		    &:hover, &.active {
+		    	font-weight: bold;
+	    		text-decoration:none;
+		    }
+		    &.active {
+		    	border: none;
+		    }
+		}
+		&-content {
+			padding: 15px 0;
+			display: none;
+			p {
+				line-height: 25px;
+			}
 		}
 	}
 }

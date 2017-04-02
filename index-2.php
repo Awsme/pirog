@@ -14,15 +14,8 @@
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="../js/accordion.js"></script>
 
-	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-	<script>
-		$( function() {
-			$( "#accordion, #accordion-2" ).accordion();
-		} );
-	</script>
 </head>
 <body>
 	<div class="wrapper">
@@ -103,112 +96,65 @@
 		<section class="content">
 			<div class="container clearfix">
 				<div class="col-8">
-					<div class="content-main_info clearfix">
+					<div class="content-main_info content-main_info-faq clearfix">
 						<div class="col-6">
-							<h3 class="list-title">Основные вопросы</h3>
-							<div id="accordion">
-								<h4>В русском языке, если вопрос произносят, то используют вопросительную</h4>
-								<div><p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p></div>
-								<h4>В русском языке, если вопрос произносят, то используют вопросительную</h4>
-								<div><p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p></div>
-								<h4>В русском языке, если вопрос произносят, то используют вопросительную</h4>
-								<div><p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p></div>
-								<h4>В русском языке, если вопрос произносят, то используют вопросительную</h4>
-								<div><p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p></div>
-
-
-								<!-- <h3>На какой вопрос нельзя ответить утвердительно</h3>
-								<div>
-									<p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
-								</div>
-								<h3>В русском языке, если вопрос произносят, то используют вопросительную</h3>
-								<div>
-									<p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
-								</div>
-								<h3>На какой вопрос нельзя ответить утвердительно</h3>
-								<div>
-									<p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
-								</div> -->
-								<!-- <h3>Section 3</h3>
-								<div>
-									<p>
-									Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-									Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-									ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-									lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-									</p>
-									<ul>
-										<li>List item one</li>
-										<li>List item two</li>
-										<li>List item three</li>
-									</ul>
-								</div>
-								<h3>Section 4</h3>
-								<div>
-									<p>
-									Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-									et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-									faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-									mauris vel est.
-									</p>
-									<p>
-									Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-									Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-									inceptos himenaeos.
-									</p>
-								</div> -->
+							<h3 class="accordion-title">Основные вопросы</h3>
+							<div id="accordion" class=' accordion accordion-items'>
+							    <div class="accordion-section">
+							        <a class="accordion-section-title" href="#accordion-1">В русском языке, если вопрос произносят, то используют вопросительную</a>
+							        <div id="accordion-1" class="accordion-section-content">
+							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
+							        </div>
+							    </div>
+							    <div class="accordion-section">
+							        <a class="accordion-section-title" href="#accordion-2">На какой вопрос нельзя ответить утвердительно</a>
+							        <div id="accordion-2" class="accordion-section-content">
+							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
+							        </div>
+							    </div>
+							    <div class="accordion-section">
+							        <a class="accordion-section-title" href="#accordion-3">В русском языке, если вопрос произносят, то используют вопросительную</a>
+							        <div id="accordion-3" class="accordion-section-content">
+							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
+							        </div>
+							    </div>
+							    <div class="accordion-section">
+							        <a class="accordion-section-title" href="#accordion-4">В русском языке, если вопрос произносят, то используют вопросительную</a>
+							        <div id="accordion-4" class="accordion-section-content">
+							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
+							        </div>
+							    </div>
 							</div>
 						</div>
 						<div class="col-6">
-							<div id="accordion-2">
-								<h3>Section 1</h3>
-								<div>
-									<p>
-									Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-									ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-									amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-									odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-									</p>
-								</div>
-								<h3>Section 2</h3>
-								<div>
-									<p>
-									Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-									purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-									velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-									suscipit faucibus urna.
-									</p>
-								</div>
-								<h3>Section 3</h3>
-								<div>
-									<p>
-									Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-									Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-									ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-									lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-									</p>
-									<ul>
-										<li>List item one</li>
-										<li>List item two</li>
-										<li>List item three</li>
-									</ul>
-								</div>
-								<h3>Section 4</h3>
-								<div>
-									<p>
-									Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-									et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-									faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-									mauris vel est.
-									</p>
-									<p>
-									Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-									Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-									inceptos himenaeos.
-									</p>
-								</div>
+							<h3 class="accordion-title">Основные вопросы</h3>
+							<div id="accordion" class=' accordion accordion-items'>
+							    <div class="accordion-section">
+							        <a class="accordion-section-title" href="#accordion-1">В русском языке, если вопрос произносят, то используют вопросительную</a>
+							        <div id="accordion-1" class="accordion-section-content">
+							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
+							        </div>
+							    </div>
+							    <div class="accordion-section">
+							        <a class="accordion-section-title" href="#accordion-2">На какой вопрос нельзя ответить утвердительно</a>
+							        <div id="accordion-2" class="accordion-section-content">
+							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
+							        </div>
+							    </div>
+							    <div class="accordion-section">
+							        <a class="accordion-section-title" href="#accordion-3">В русском языке, если вопрос произносят, то используют вопросительную</a>
+							        <div id="accordion-3" class="accordion-section-content">
+							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
+							        </div>
+							    </div>
+							    <div class="accordion-section">
+							        <a class="accordion-section-title" href="#accordion-4">В русском языке, если вопрос произносят, то используют вопросительную</a>
+							        <div id="accordion-4" class="accordion-section-content">
+							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
+							        </div>
+							    </div>
 							</div>
-						</div>						
+						</div>					
 					</div>
 				</div>
 				<div class="col-4">

@@ -448,7 +448,7 @@ div[class*="col-"] {
   line-height: 30px;
   font-size: 15px;
 }
-.content-main_info .list-title {
+.content-main_info .accordion-title {
   color: #2e3034;
   font-size: 22px;
   line-height: 48px;
@@ -631,6 +631,9 @@ div[class*="col-"] {
 .content-main_info-carousel {
   margin-bottom: 30px;
 }
+.content-main_info-faq {
+  padding: 40px;
+}
 .footer {
   background: #e8eef6;
   padding-top: 20px;
@@ -742,4 +745,51 @@ div[class*="col-"] {
 }
 .footer-bottom-btn {
   float: right;
+}
+/*----- Accordion -----*/
+.accordion,
+.accordion * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.accordion {
+  overflow: hidden;
+}
+.accordion-section-title {
+  position: relative;
+  width: 100%;
+  padding: 15px 25px;
+  display: inline-block;
+  border-bottom: 1px solid #eff1f3;
+  transition: all linear 0.15s;
+  font-size: 15px;
+  color: #25253c;
+}
+.accordion-section-title:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  display: block;
+  width: 15px;
+  height: 16px;
+  background: url('../images/accordion-faq-icon.png');
+}
+.accordion-section-title:hover,
+.accordion-section-title.active {
+  font-weight: bold;
+  text-decoration: none;
+}
+.accordion-section-title.active {
+  border: none;
+}
+.accordion-section-content {
+  padding: 15px 0;
+  display: none;
+}
+.accordion-section-content p {
+  line-height: 25px;
 }
