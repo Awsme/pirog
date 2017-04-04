@@ -234,7 +234,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="content-main_info-feedback clearfix">
+				<div class="content-main_info feedback clearfix">
 					<h3>Мы всегда работаем на совесть</h3>
 					<h4>Фотографии наших клиентов  1 / 20</h4>
 					<div class="content-main_info-carousel">
@@ -244,6 +244,61 @@
 						<div><img src="images/content-carousel-img-1.png" alt=""></div>
 					</div>
 					<a href="#" class="btn btn-medium btn-style-1">Заказать сейчас</a>
+				</div>
+				<div class="content-main_info contacts clearfix">
+					<div class="col-6">
+						<h2>Контактные данные</h2>
+						<div class="contacts_info">
+							<div class="col-6">
+								<div class="address">
+									<h3>Адрес</h3>
+									<p>Bolshaya Novodmitrovskaya ul., 36 Moscow, 127015</p>
+								</div>
+								<div class="phone">
+									<h3>Номер телефона</h3>
+									<p>8 800 600-20-30</p>
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="email">
+									<h3>Пишите нам</h3>
+									<p>info@dnkanalysis.com</p>
+									<a href="#" class="btn btn-large btn-style-2">Заказать звонок</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6">
+						<img src="images/content-img-2-icon.png" alt="">
+						<form action="#" >
+							<div class="clearfix">
+								<div class="col-4">
+									<div class="form-group">
+										<label for="#" class="label"></label>
+										<input type="text" class="field">
+									</div>
+								</div>
+								<div class="col-4">
+									<div class="form-group">
+										<label for="#" class="label"></label>
+										<input type="text" class="field">
+									</div>
+								</div>
+								<div class="col-4">
+									<div class="form-group">
+										<label for="#" class="label"></label>
+										<input type="text" class="field">
+									</div>
+								</div>
+							</div>
+							<div class="clearfix">
+								<div class="col-12">
+									<textarea name="" id="" class="message"></textarea>
+								</div>
+							</div>
+							<a href="#" class="btn btn-large btn-style-1">Отправить</a>
+						</form>
+					</div>					
 				</div>
 			</div>
 		</section>

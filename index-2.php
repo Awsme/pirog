@@ -130,26 +130,26 @@
 							<h3 class="accordion-title">Основные вопросы</h3>
 							<div id="accordion" class=' accordion accordion-items'>
 							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-1">В русском языке, если вопрос произносят, то используют вопросительную</a>
-							        <div id="accordion-1" class="accordion-section-content">
+							        <a class="accordion-section-title" href="#accordion-5">В русском языке, если вопрос произносят, то используют вопросительную</a>
+							        <div id="accordion-5" class="accordion-section-content">
 							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
 							        </div>
 							    </div>
 							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-2">На какой вопрос нельзя ответить утвердительно</a>
-							        <div id="accordion-2" class="accordion-section-content">
+							        <a class="accordion-section-title" href="#accordion-6">На какой вопрос нельзя ответить утвердительно</a>
+							        <div id="accordion-6" class="accordion-section-content">
 							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
 							        </div>
 							    </div>
 							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-3">В русском языке, если вопрос произносят, то используют вопросительную</a>
-							        <div id="accordion-3" class="accordion-section-content">
+							        <a class="accordion-section-title" href="#accordion-7">В русском языке, если вопрос произносят, то используют вопросительную</a>
+							        <div id="accordion-7" class="accordion-section-content">
 							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
 							        </div>
 							    </div>
 							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-4">В русском языке, если вопрос произносят, то используют вопросительную</a>
-							        <div id="accordion-4" class="accordion-section-content">
+							        <a class="accordion-section-title" href="#accordion-8">В русском языке, если вопрос произносят, то используют вопросительную</a>
+							        <div id="accordion-8" class="accordion-section-content">
 							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
 							        </div>
 							    </div>

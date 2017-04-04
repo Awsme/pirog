@@ -607,7 +607,7 @@ div[class*="col-"] {
   font-size: 24px;
   line-height: 1;
 }
-.content-main_info-feedback {
+.content-main_info.feedback {
   text-align: center;
   padding: 25px;
   border-radius: 10px;
@@ -616,13 +616,13 @@ div[class*="col-"] {
   background: #fff;
   margin-bottom: 60px;
 }
-.content-main_info-feedback h3 {
+.content-main_info.feedback h3 {
   font-size: 36px;
   line-height: 48px;
   color: #2e3034;
   letter-spacing: -0.1px;
 }
-.content-main_info-feedback h4 {
+.content-main_info.feedback h4 {
   font-size: 15px;
   line-height: 30px;
   letter-spacing: -0.1px;
@@ -632,7 +632,7 @@ div[class*="col-"] {
   margin-bottom: 30px;
 }
 .content-main_info-faq {
-  padding: 40px;
+  padding: 40px 25px;
 }
 .footer {
   background: #e8eef6;
@@ -755,6 +755,9 @@ div[class*="col-"] {
 }
 .accordion {
   overflow: hidden;
+}
+.accordion-section {
+  padding: 0 15px;
 }
 .accordion-section-title {
   position: relative;
