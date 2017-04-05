@@ -14,8 +14,8 @@
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script type="text/javascript" src="js/slick.min.js"></script>
-	<script type="text/javascript" src="../js/accordion.js"></script>
-
+	<script type="text/javascript" src="js/accordion.js"></script>
+	
 </head>
 <body>
 	<div class="wrapper">
@@ -58,11 +58,11 @@
 				<div class="header-bottom clearfix">
 					<div class="col-8">
 						<ul class="header-bottom-nav">
-							<li><a href="#">Главная</a></li>
-							<li><a href="#">ДНК-Тест</a></li>
-							<li><a href="" class="active">Вопросы-Ответы</a></li>
-							<li><a href="#">О компании</a></li>
-							<li><a href="#">Контактные данные</a></li>
+							<li><a href="index.php">Главная</a></li>
+							<li><a href="index-2.php">ДНК-Тест</a></li>
+							<li><a href="index-3.php" class="active">Вопросы-Ответы</a></li>
+							<li><a href="index-4.php">О компании</a></li>
+							<li><a href="index-5.php">Контактные данные</a></li>
 						</ul>
 					</div>
 					<div class="col-4">
@@ -73,171 +73,178 @@
 				</div>
 				<section class="top-content">
 					<div class="row clearfix">
-						<div class="col-2">
-							<div class="top-content-page-icon">
-								<img src="images/faq-icon-1.png" alt="">
-							</div>
+						<div class="col-4">
+							<img src="images/top-content-img-1.png" alt="">
 						</div>
-						<div class="col-10">
+						<div class="col-8">
 							<div class="top-content-info">
-								<div class="top-content-breadcrumbs">
-									<ul class="clearfix">
-										<li><a href="#">Главная</a></li>
-										<li><a href="#" class="active">Вопросы-ответы</a></li>
-									</ul>
+								<h3>Анализ ДНК на отцовство, материнство</h3>
+								<div class="top-content-info-descr">Мы предлагаем простой, доступный, 21 генетический маркер домой Тестирование отцовства на 6500 рублей, С результатами в течение 6 рабочих дней с момента получения образцов<br> И более 99,99% точности.</div>
+								<div class="top-content-info-buy_now">
+									<a href="#">Заказать сейчас</a>
 								</div>
-								<h3>Часто задаваемые вопросы-ответы</h3>
+								<div class="top-content-info-old_price">6500 Р</div>
 							</div>
 						</div>
 					</div>
+					<div class="top-content-offers clearfix">
+						<div class="col-4">
+							<div class="top-content-offers-item">
+								<img src="images/top-content-img-2.png" alt="">
+								<div class="top-content-offers-item-title">
+									<span class="top-content-offers-item-title-head">Мы гарантируем</span>
+									<span class="top-content-offers-item-title-descr">99,99% точность</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="top-content-offers-item">
+								<img src="images/top-content-img-3.png" alt="">
+								<div class="top-content-offers-item-title">
+									<span class="top-content-offers-item-title-head">Срок выполнения</span>
+									<span class="top-content-offers-item-title-descr">Всего 6 дней</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="top-content-offers-item">
+								<img src="images/top-content-img-4.png" alt="">
+								<div class="top-content-offers-item-title">
+									<span class="top-content-offers-item-title-head">Нам доверяют</span>
+									<span class="top-content-offers-item-title-descr">более 1009 клиентов</span>
+								</div>
+							</div>
+						</div>
+					</div>				
 				</section>
 			</div>
 		</div>
+		
 		<section class="content">
-			<div class="container clearfix">
-				<div class="col-8">
-					<div class="content-main_info content-main_info-faq clearfix">
-						<div class="col-6">
-							<h3 class="accordion-title">Основные вопросы</h3>
-							<div id="accordion" class=' accordion accordion-items'>
-							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-1">В русском языке, если вопрос произносят, то используют вопросительную</a>
-							        <div id="accordion-1" class="accordion-section-content">
-							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
-							        </div>
-							    </div>
-							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-2">На какой вопрос нельзя ответить утвердительно</a>
-							        <div id="accordion-2" class="accordion-section-content">
-							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
-							        </div>
-							    </div>
-							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-3">А на какой нельзя отрицательно, не соврав?</a>
-							        <div id="accordion-3" class="accordion-section-content">
-							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
-							        </div>
-							    </div>
-							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-4">А на какой нельзя ответить ни положительно</a>
-							        <div id="accordion-4" class="accordion-section-content">
-							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
-							        </div>
-							    </div>
-							</div>
-							<h3 class="accordion-title">Результаты</h3>
-							<div id="accordion" class=' accordion accordion-items'>
-							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-1">В русском языке, если вопрос произносят, то используют вопросительную</a>
-							        <div id="accordion-1" class="accordion-section-content">
-							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
-							        </div>
-							    </div>
-							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-2">На какой вопрос нельзя ответить утвердительно</a>
-							        <div id="accordion-2" class="accordion-section-content">
-							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
-							        </div>
-							    </div>
-							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-3">А на какой нельзя отрицательно, не соврав?</a>
-							        <div id="accordion-3" class="accordion-section-content">
-							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
-							        </div>
-							    </div>
-							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-4">А на какой нельзя ответить ни положительно</a>
-							        <div id="accordion-4" class="accordion-section-content">
-							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
-							        </div>
-							    </div>
-							</div>
-						</div>
-						<div class="col-6">
-							<h3 class="accordion-title">Оплата</h3>
-							<div id="accordion" class=' accordion accordion-items'>
-							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-5">В некоторых языках вопросительные предложения</a>
-							        <div id="accordion-5" class="accordion-section-content">
-							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
-							        </div>
-							    </div>
-							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-6">Например, в английском языке в вопросе сначала идёт сказуемое</a>
-							        <div id="accordion-6" class="accordion-section-content">
-							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
-							        </div>
-							    </div>
-							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-7">В русском языке такого строгого </a>
-							        <div id="accordion-7" class="accordion-section-content">
-							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
-							        </div>
-							    </div>
-							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-8">В греческом языке вместо вопросительного</a>
-							        <div id="accordion-8" class="accordion-section-content">
-							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
-							        </div>
-							    </div>
-							</div>
-							<h3 class="accordion-title">Как пользоваться тестом?</h3>
-							<div id="accordion" class=' accordion accordion-items'>
-							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-5">В некоторых языках вопросительные предложения</a>
-							        <div id="accordion-5" class="accordion-section-content">
-							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
-							        </div>
-							    </div>
-							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-6">Например, в английском языке в вопросе сначала идёт сказуемое</a>
-							        <div id="accordion-6" class="accordion-section-content">
-							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
-							        </div>
-							    </div>
-							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-7">В русском языке такого строгого </a>
-							        <div id="accordion-7" class="accordion-section-content">
-							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
-							        </div>
-							    </div>
-							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-8">В греческом языке вместо вопросительного</a>
-							        <div id="accordion-8" class="accordion-section-content">
-							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
-							        </div>
-							    </div>
-							</div>
-						</div>					
-					</div>
-				</div>
-				<div class="col-4">
-					<div class="sidebar">
-						<h3>Нужна помощь?</h3>
-						<img src="images/sidebar-icon-1.png" alt="">
-						<p>Закажите обратный звонок,  бесплатно проконсультируем</p>
-						<div class="sidebar-buttons">
-							<a href="#" class="btn btn-medium btn-style-2">Обратный звонок</a>
-							<a href="#" class="btn btn-medium btn-style-1">Заказать тест сейчас</a>
-						</div>
-						<div class="sidebar-partners">
-							<h3>Наши партнеры</h3>
-							<p>Только проверенные лаборотории</p>
-							<ul>
-								<li><a href="#"><img src="" alt=""></a></li>
-								<li><a href="#"><img src="" alt=""></a></li>
-								<li><a href="#"><img src="" alt=""></a></li>
-							</ul>
-						</div>
-						<div class="sidebar-howto">
-							<h3>Как сделать тест?</h3>
-							<p>Полная инструкция по использованию теста и его применения</p>
-							<a href="#" class="btn btn-medium btn-style-2">Вопросы-ответы</a>
-						</div>
-					</div>
-				</div>
-			</div>
 			<div class="container">
+				<div class="content-main_info">
+					<div class="content-main_info-title">
+						<img src="images/content-img-1.png" alt="">
+						<h3>Домашний тест на отцовство и/или материнство</h3>
+					</div>
+					<p>
+						Комплект для тестирования ДНК для дома обеспечит конфиденциальность и точность, которые вы ищете вКомфорт вашего дома. Если вам интересно, тест поможет вам успокоиться. Домашнее тестирование на отцовство Самое простое и доступное решение. Образцы собираются в С химической точки зрения ДНК — это длинная полимерная молекула, состоящая из повторяющихся блоков <br>— нуклеотидов. Каждый нуклеотид состоит из азотистого основания, сахара (дезоксирибозы) и фосфатной группы.
+					</p>
+				</div>
+				<div class="content-main_info-detailed clearfix">
+					<div class="col-4">
+						<div class="content-main_info-detailed-block">
+							<div class="content-main_info-detailed-block-head">
+								<img src="images/content-icon-1.png" alt="">
+								<h3>Быстро</h3>
+							</div>
+							<div class="content-main_info-detailed-block-descr">
+								Более длительные сроки обработки Означает более короткое ожидание вашего Результаты ДНК-теста. Чем меньше времени Вы ждете, меньше стресса И тем быстрее вы можете двигаться дальше.
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="content-main_info-detailed-block">
+							<div class="content-main_info-detailed-block-head">
+								<img src="images/content-icon-2.png" alt="">
+								<h3>Точно</h3>
+							</div>
+							<div class="content-main_info-detailed-block-descr">
+								Точные результаты означают нахождение Закрытие с полным душевным спокойствием. Испытательные лаборатории Аккредитована ISO17025, которая Золотой стандарт в тестировании ДНК Аккредитации.
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="content-main_info-detailed-block">
+							<div class="content-main_info-detailed-block-head">
+								<img src="images/content-icon-3.png" alt="">
+								<h3>Анонимно</h3>
+							</div>
+							<div class="content-main_info-detailed-block-descr">
+								HomeDNAВыполнить непоколебимо Обеспечивает самого строгого клиента Конфиденциальности и конфиденциальности. Мы Знать, что такое конфиденциальность О том, что это значит для вас.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content-main_info-detailed-advantages clearfix">
+					<div class="col-4">
+						<img src="images/content-icon-4.png" alt="">
+						<div class="content-main_info-detailed-advantages-title">
+							<h3>В компалекте</h3>
+							<p>Для тестирования заказа</p>
+						</div>
+					</div>
+					<div class="col-4">
+						<img src="images/content-icon-5.png" alt="">
+						<div class="content-main_info-detailed-advantages-title">
+							<h3>Удобный способы</h3>
+							<p>Оплаты и доставки</p>
+						</div>
+					</div>
+					<div class="col-4">
+						<img src="images/content-icon-6.png" alt="">
+						<div class="content-main_info-detailed-advantages-title">
+							<h3>Гарантируем</h3>
+							<p>Правильный результат</p>
+						</div>
+					</div>
+				</div>
+				<div class="content-main_info-offers offers-first clearfix">
+					<div class="col-6">
+						<div class="content-main_info-offers-img">
+							<img src="images/content-img-2.png" alt="">
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="content-main_info-offers-title">
+							<h3>Доступно для каждого выгодные условия для всех</h3>
+							<p>Наш тестовый комплект для отцовства удобно доступен В крупных аптеках и суперцентрах По всей стране, включая CVS, Rite Aid и Walmart. Если вам нужно вспомнить, вас не будет Взимается больше. Найти магазин.
+							</p>
+							<a href="#" class="btn btn-medium btn-style-2">Связаться с нами</a>
+						</div>
+					</div>					
+				</div>
+				<div class="content-main_info-offers offers-second clearfix">
+					<div class="col-6">
+						<div class="content-main_info-offers-title">
+							<h3>Дружелюбное обслуживание клиентов. Чтобы ответить на ВСЕ ваши важные вопросы</h3>
+							<span>500 Р. Набор для тестирования + 6000 Р. Лабораторный сбор = 6500 Р.</span>
+							<p>Наше высококвалифицированное обслуживание клиентов Представители действительно единственные в своем роде, предлагая Помочь на всем пути от принятия решения о Отцовство тест через понимание вашего теста Результаты. Свяжитесь с нами.
+							</p>
+							<a href="#" class="btn btn-medium btn-style-2">Связаться с нами</a>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="content-main_info-offers-img">
+							<img src="images/content-img-2.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="content-main_info-order clearfix">
+					<div class="col-4">
+						<div class="content-main_info-order-icon">
+							<img src="images/content-img-4.png" alt="">
+						</div>
+					</div>
+					<div class="col-8">
+						<div class="content-main_info-order-title">
+							<h4>Мы гарантируем 99,99% результат и точно в срок</h4>
+							<h3>Закажите тест у нас и получите точный результат в срок!</h3>
+							<a href="#" class="btn btn-medium btn-style-2">Связаться с нами</a>
+						</div>
+					</div>
+				</div>
+				<div class="content-main_info feedback clearfix">
+					<h3>Мы всегда работаем на совесть</h3>
+					<h4>Фотографии наших клиентов  1 / 20</h4>
+					<div class="content-main_info-carousel">
+						<div><img src="images/content-carousel-img-1.png" alt=""></div>
+						<div><img src="images/content-carousel-img-1.png" alt=""></div>
+						<div><img src="images/content-carousel-img-1.png" alt=""></div>
+						<div><img src="images/content-carousel-img-1.png" alt=""></div>
+					</div>
+					<a href="#" class="btn btn-medium btn-style-1">Заказать сейчас</a>
+				</div>
 				<div class="content-main_info contacts clearfix">
 					<div class="col-6">
 						<h2>Контактные данные</h2>

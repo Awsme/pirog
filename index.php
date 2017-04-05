@@ -58,11 +58,11 @@
 				<div class="header-bottom clearfix">
 					<div class="col-8">
 						<ul class="header-bottom-nav">
-							<li><a href="#">Главная</a></li>
-							<li><a href="#">ДНК-Тест</a></li>
-							<li><a href="index-2.php" class="active">Вопросы-Ответы</a></li>
-							<li><a href="#">О компании</a></li>
-							<li><a href="#">Контактные данные</a></li>
+							<li><a href="index.php">Главная</a></li>
+							<li><a href="index-2.php">ДНК-Тест</a></li>
+							<li><a href="index-3.php" class="active">Вопросы-Ответы</a></li>
+							<li><a href="index-4.php">О компании</a></li>
+							<li><a href="index-5.php">Контактные данные</a></li>
 						</ul>
 					</div>
 					<div class="col-4">
