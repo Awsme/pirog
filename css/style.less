@@ -533,6 +533,9 @@ div[class*="col-"] {
 					font-size: 24px;
 					line-height: 1;
 				}
+				a {
+					margin-top: 20px;
+				}
 			}
 		}
 		&.feedback {
@@ -562,6 +565,85 @@ div[class*="col-"] {
 		&-faq {
 			padding: 40px 25px;
 		}
+		&.contacts {
+			h2 {
+				padding: 0 0 20px;
+				font-size: 30px;
+				font-weight: bold;
+				color: #2e3034;
+				line-height: 36px;
+			}
+			.contacts_info {
+				border-top: 1px solid #eceff4;
+				padding: 30px 0 0 0;
+				margin-right: 30px;
+				h3 {
+					color: #78787a;
+					font-size: 15px;
+					line-height: 25px;
+					padding-left: 30px;
+					position: relative;
+					&:before {
+						content: "";
+						position: absolute;
+						left: 0;
+					}
+				}
+				.address {
+					padding: 0 20px 20px 0;
+					h3 {
+						&:before {
+							width: 20px;
+							height: 25px;
+							background: url('../images/contact_form-icon-1.png') no-repeat;
+						}
+					}
+				}
+				.phone {
+					h3 {
+						&:before {
+							width: 20px;
+							height: 20px;
+							background: url('../images/contact_form-icon-2.png') no-repeat;
+						}
+					}
+				}
+				.email {
+					h3 {
+						&:before {
+							width: 24px;
+							height: 25px;
+							background: url('../images/contact_form-icon-3.png') no-repeat;
+						}
+					}
+				}
+				.btn {
+					margin-top: 20px;
+				}
+			}
+			.contact_form {
+				img {
+					margin-bottom: 15px;
+				}
+				label {
+					display: block;
+				}
+			}
+		}
+	}
+}
+.sidebar {
+	padding: 0 0 0 35px;
+	h3 {
+		font-size: 28px;
+		line-height: 36px;
+		color: #2e3034;
+	}
+	p {
+		font-size: 14px;
+		line-height: 24px;
+		letter-spacing: -.1px;
+		color: #68686a
 	}
 }
 .footer {
@@ -690,6 +772,9 @@ div[class*="col-"] {
  
 .accordion {
     overflow:hidden;
+    &-items {
+    	min-height: 270px;
+    }
     &-section {
     	padding: 0 15px;
     	&-title {

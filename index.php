@@ -230,7 +230,7 @@
 						<div class="content-main_info-order-title">
 							<h4>Мы гарантируем 99,99% результат и точно в срок</h4>
 							<h3>Закажите тест у нас и получите точный результат в срок!</h3>
-							<a href="#">Связаться с нами</a>
+							<a href="#" class="btn btn-medium btn-style-2">Связаться с нами</a>
 						</div>
 					</div>
 				</div>
@@ -248,7 +248,7 @@
 				<div class="content-main_info contacts clearfix">
 					<div class="col-6">
 						<h2>Контактные данные</h2>
-						<div class="contacts_info">
+						<div class="contacts_info clearfix">
 							<div class="col-6">
 								<div class="address">
 									<h3>Адрес</h3>
@@ -268,32 +268,35 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-6">
+					<div class="col-6 contact_form">
 						<img src="images/content-img-2-icon.png" alt="">
-						<form action="#" >
+						<form action="#">
 							<div class="clearfix">
 								<div class="col-4">
 									<div class="form-group">
-										<label for="#" class="label"></label>
+										<label for="#" class="label">Ваше имя</label>
 										<input type="text" class="field">
 									</div>
 								</div>
 								<div class="col-4">
 									<div class="form-group">
-										<label for="#" class="label"></label>
+										<label for="#" class="label">Тип сообщения</label>
 										<input type="text" class="field">
 									</div>
 								</div>
 								<div class="col-4">
 									<div class="form-group">
-										<label for="#" class="label"></label>
+										<label for="#" class="label">Ваш e-mail</label>
 										<input type="text" class="field">
 									</div>
 								</div>
 							</div>
 							<div class="clearfix">
 								<div class="col-12">
-									<textarea name="" id="" class="message"></textarea>
+									<div class="form-group">
+										<label for="#" class="label">Сообщение</label>
+										<textarea name="" id="" class="message"></textarea>
+									</div>
 								</div>
 							</div>
 							<a href="#" class="btn btn-large btn-style-1">Отправить</a>

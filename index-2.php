@@ -113,13 +113,40 @@
 							        </div>
 							    </div>
 							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-3">В русском языке, если вопрос произносят, то используют вопросительную</a>
+							        <a class="accordion-section-title" href="#accordion-3">А на какой нельзя отрицательно, не соврав?</a>
 							        <div id="accordion-3" class="accordion-section-content">
 							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
 							        </div>
 							    </div>
 							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-4">В русском языке, если вопрос произносят, то используют вопросительную</a>
+							        <a class="accordion-section-title" href="#accordion-4">А на какой нельзя ответить ни положительно</a>
+							        <div id="accordion-4" class="accordion-section-content">
+							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
+							        </div>
+							    </div>
+							</div>
+							<h3 class="accordion-title">Результаты</h3>
+							<div id="accordion" class=' accordion accordion-items'>
+							    <div class="accordion-section">
+							        <a class="accordion-section-title" href="#accordion-1">В русском языке, если вопрос произносят, то используют вопросительную</a>
+							        <div id="accordion-1" class="accordion-section-content">
+							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
+							        </div>
+							    </div>
+							    <div class="accordion-section">
+							        <a class="accordion-section-title" href="#accordion-2">На какой вопрос нельзя ответить утвердительно</a>
+							        <div id="accordion-2" class="accordion-section-content">
+							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
+							        </div>
+							    </div>
+							    <div class="accordion-section">
+							        <a class="accordion-section-title" href="#accordion-3">А на какой нельзя отрицательно, не соврав?</a>
+							        <div id="accordion-3" class="accordion-section-content">
+							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
+							        </div>
+							    </div>
+							    <div class="accordion-section">
+							        <a class="accordion-section-title" href="#accordion-4">А на какой нельзя ответить ни положительно</a>
 							        <div id="accordion-4" class="accordion-section-content">
 							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
 							        </div>
@@ -127,28 +154,55 @@
 							</div>
 						</div>
 						<div class="col-6">
-							<h3 class="accordion-title">Основные вопросы</h3>
+							<h3 class="accordion-title">Оплата</h3>
 							<div id="accordion" class=' accordion accordion-items'>
 							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-5">В русском языке, если вопрос произносят, то используют вопросительную</a>
+							        <a class="accordion-section-title" href="#accordion-5">В некоторых языках вопросительные предложения</a>
 							        <div id="accordion-5" class="accordion-section-content">
 							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
 							        </div>
 							    </div>
 							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-6">На какой вопрос нельзя ответить утвердительно</a>
+							        <a class="accordion-section-title" href="#accordion-6">Например, в английском языке в вопросе сначала идёт сказуемое</a>
 							        <div id="accordion-6" class="accordion-section-content">
 							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
 							        </div>
 							    </div>
 							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-7">В русском языке, если вопрос произносят, то используют вопросительную</a>
+							        <a class="accordion-section-title" href="#accordion-7">В русском языке такого строгого </a>
 							        <div id="accordion-7" class="accordion-section-content">
 							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
 							        </div>
 							    </div>
 							    <div class="accordion-section">
-							        <a class="accordion-section-title" href="#accordion-8">В русском языке, если вопрос произносят, то используют вопросительную</a>
+							        <a class="accordion-section-title" href="#accordion-8">В греческом языке вместо вопросительного</a>
+							        <div id="accordion-8" class="accordion-section-content">
+							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
+							        </div>
+							    </div>
+							</div>
+							<h3 class="accordion-title">Как пользоваться тестом?</h3>
+							<div id="accordion" class=' accordion accordion-items'>
+							    <div class="accordion-section">
+							        <a class="accordion-section-title" href="#accordion-5">В некоторых языках вопросительные предложения</a>
+							        <div id="accordion-5" class="accordion-section-content">
+							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
+							        </div>
+							    </div>
+							    <div class="accordion-section">
+							        <a class="accordion-section-title" href="#accordion-6">Например, в английском языке в вопросе сначала идёт сказуемое</a>
+							        <div id="accordion-6" class="accordion-section-content">
+							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
+							        </div>
+							    </div>
+							    <div class="accordion-section">
+							        <a class="accordion-section-title" href="#accordion-7">В русском языке такого строгого </a>
+							        <div id="accordion-7" class="accordion-section-content">
+							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
+							        </div>
+							    </div>
+							    <div class="accordion-section">
+							        <a class="accordion-section-title" href="#accordion-8">В греческом языке вместо вопросительного</a>
 							        <div id="accordion-8" class="accordion-section-content">
 							            <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст </p>
 							        </div>
@@ -158,6 +212,89 @@
 					</div>
 				</div>
 				<div class="col-4">
+					<div class="sidebar">
+						<h3>Нужна помощь?</h3>
+						<img src="images/sidebar-icon-1.png" alt="">
+						<p>Закажите обратный звонок,  бесплатно проконсультируем</p>
+						<div class="sidebar-buttons">
+							<a href="#" class="btn btn-medium btn-style-2">Обратный звонок</a>
+							<a href="#" class="btn btn-medium btn-style-1">Заказать тест сейчас</a>
+						</div>
+						<div class="sidebar-partners">
+							<h3>Наши партнеры</h3>
+							<p>Только проверенные лаборотории</p>
+							<ul>
+								<li><a href="#"><img src="" alt=""></a></li>
+								<li><a href="#"><img src="" alt=""></a></li>
+								<li><a href="#"><img src="" alt=""></a></li>
+							</ul>
+						</div>
+						<div class="sidebar-howto">
+							<h3>Как сделать тест?</h3>
+							<p>Полная инструкция по использованию теста и его применения</p>
+							<a href="#" class="btn btn-medium btn-style-2">Вопросы-ответы</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="content-main_info contacts clearfix">
+					<div class="col-6">
+						<h2>Контактные данные</h2>
+						<div class="contacts_info clearfix">
+							<div class="col-6">
+								<div class="address">
+									<h3>Адрес</h3>
+									<p>Bolshaya Novodmitrovskaya ul., 36 Moscow, 127015</p>
+								</div>
+								<div class="phone">
+									<h3>Номер телефона</h3>
+									<p>8 800 600-20-30</p>
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="email">
+									<h3>Пишите нам</h3>
+									<p>info@dnkanalysis.com</p>
+									<a href="#" class="btn btn-large btn-style-2">Заказать звонок</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 contact_form">
+						<img src="images/content-img-2-icon.png" alt="">
+						<form action="#">
+							<div class="clearfix">
+								<div class="col-4">
+									<div class="form-group">
+										<label for="#" class="label">Ваше имя</label>
+										<input type="text" class="field">
+									</div>
+								</div>
+								<div class="col-4">
+									<div class="form-group">
+										<label for="#" class="label">Тип сообщения</label>
+										<input type="text" class="field">
+									</div>
+								</div>
+								<div class="col-4">
+									<div class="form-group">
+										<label for="#" class="label">Ваш e-mail</label>
+										<input type="text" class="field">
+									</div>
+								</div>
+							</div>
+							<div class="clearfix">
+								<div class="col-12">
+									<div class="form-group">
+										<label for="#" class="label">Сообщение</label>
+										<textarea name="" id="" class="message"></textarea>
+									</div>
+								</div>
+							</div>
+							<a href="#" class="btn btn-large btn-style-1">Отправить</a>
+						</form>
+					</div>					
 				</div>
 			</div>
 		</section>
