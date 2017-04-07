@@ -133,6 +133,14 @@ div[class*="col-"] {
 	display: inline-block;
 	border-radius: 25px;
 }
+.btn-input {
+	border: none;
+	cursor: pointer;
+	font-family: 'Fira Sans', sans-serif;
+	&:active, &:focus {
+		outline: none;
+	}
+}
 .btn-medium {
 	font-size: 14px;
 	padding: 15px 20px;
@@ -717,6 +725,13 @@ div[class*="col-"] {
 			.woocommerce-checkout {
 				padding: 20px;
 				border: 1px solid #e6eaec;
+				&-block {
+					padding: 20px 75px;
+					border: 1px solid #e6eaec;
+					&.block-info {
+
+					}
+				}
 			}
 			.woocommerce-billing-fields {
 				color: #535356;

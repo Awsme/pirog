@@ -207,6 +207,15 @@ div[class*="col-"] {
   display: inline-block;
   border-radius: 25px;
 }
+.btn-input {
+  border: none;
+  cursor: pointer;
+  font-family: 'Fira Sans', sans-serif;
+}
+.btn-input:active,
+.btn-input:focus {
+  outline: none;
+}
 .btn-medium {
   font-size: 14px;
   padding: 15px 20px;
@@ -770,6 +779,10 @@ div[class*="col-"] {
 }
 .content-main_info-cart .woocommerce-checkout {
   padding: 20px;
+  border: 1px solid #e6eaec;
+}
+.content-main_info-cart .woocommerce-checkout-block {
+  padding: 20px 75px;
   border: 1px solid #e6eaec;
 }
 .content-main_info-cart .woocommerce-billing-fields {

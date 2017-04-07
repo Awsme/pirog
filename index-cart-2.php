@@ -130,52 +130,46 @@
 						            </div>
 						            <div class="col-1">&nbsp;</div>
 						            <div class="col-7">
-										<h3 id="order_review_heading">Ваш заказ</h3>
-								        <div id="order_review" class="woocommerce-checkout-review-order">
-								            <table class="shop_table woocommerce-checkout-review-order-table">
-								                <thead>
-								                    <tr>
-								                        <th class="product-name">Товар</th>
-								                        <th class="product-total">Итого</th>
-								                    </tr>
-								                </thead>
+						            	<div class="woocommerce-checkout-block block-info">
+						            		<h3 id="order_review_heading">Заказ</h3>
+						            		<table class="shop_table woocommerce-checkout-review-order-table">
 								                <tbody>
 								                    <tr class="cart_item">
 								                        <td class="product-name">
-								                            Test<strong class="product-quantity">× 2350</strong>													
+								                            1  Тест ДНК elegance самое интересное
 								                        </td>
-								                        <td class="product-total">
-								                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">₴</span>289,050.00</span>						
+								                    </tr>
+								                    <tr class="cart_item">
+								                        <td class="product-name">
+								                        	2  Еlegance самое интересное									
 								                        </td>
 								                    </tr>
 								                </tbody>
 								                <tfoot>
-								                    <tr class="cart-subtotal">
-								                        <th>Подытог</th>
-								                        <td><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">₴</span>289,050.00</span></td>
-								                    </tr>
 								                    <tr class="order-total">
-								                        <th>Итого</th>
-								                        <td><strong><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">₴</span>289,050.00</span></strong> </td>
+								                        <td>Итого товаров на сумму:</td>
+								                        <td>
+							                        		<span class="woocommerce-Price-amount amount">1 980
+							                        		<span class="woocommerce-Price-currencySymbol">P</span></span>
+								                        </td>
 								                    </tr>
 								                </tfoot>
 								            </table>
+						            	</div>
+								        <div id="order_review" class="woocommerce-checkout-review-order woocommerce-checkout-block">
 								            <div id="payment" class="woocommerce-checkout-payment">
 								                <ul class="wc_payment_methods payment_methods methods">
 								                    <li class="wc_payment_method payment_method_cheque">
-								                        <input id="payment_method_cheque" type="radio" class="input-radio" name="payment_method" value="cheque" checked="checked" data-order_button_text="" style="display: none;">
+								                        <input id="payment_method_cheque" type="radio" class="input-radio" name="payment_method" value="cheque" checked="checked" data-order_button_text="">
 								                        <label for="payment_method_cheque">
-								                        Check payments 	</label>
+								                        Варианты оплаты</label>
 								                        <div class="payment_box payment_method_cheque">
 								                            <p>Пожалуйста, отправьте ваш чек, указав данные магазина: название, улицу, город, область/регион, страну, почтовый индекс.</p>
 								                        </div>
 								                    </li>
 								                </ul>
 								                <div class="form-row place-order">
-								                    <noscript>
-								                        Поскольку ваш браузер не поддерживает JavaScript или в нем он отключен, просим убедиться в том, что вы нажали кнопку &lt;em&gt;Обновить итог&lt;/em&gt; перед регистрацией заказа. Иначе, есть риск неправильного подсчета стоимости.			&lt;br/&gt;&lt;input type="submit" class="button alt" name="woocommerce_checkout_update_totals" value="Обновить итог" /&gt;
-								                    </noscript>
-								                    <input type="submit" class="button alt" name="woocommerce_checkout_place_order" id="place_order" value="Подтвердить заказ" data-value="Подтвердить заказ">
+								                    <input type="submit" class="button alt btn btn-input btn-large btn-style-1" name="woocommerce_checkout_place_order" id="place_order" value="Подтвердить заказ" data-value="Подтвердить заказ">
 								                    <input type="hidden" id="_wpnonce" name="_wpnonce" value="d382358d8c"><input type="hidden" name="_wp_http_referer" value="/checkout/?wc-ajax=update_order_review">	
 								                </div>
 								            </div>
