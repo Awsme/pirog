@@ -770,6 +770,19 @@ div[class*="col-"] {
   color: #535356;
   font-size: 13px;
 }
+.content-main_info-cart .woocommerce-billing-fields__field-wrapper p label {
+  color: #535356;
+  font-size: 13px;
+  display: block;
+  line-height: 1;
+}
+.content-main_info-cart .woocommerce-billing-fields__field-wrapper p input,
+.content-main_info-cart .woocommerce-billing-fields__field-wrapper p select {
+  box-sizing: border-box;
+  padding: 15px;
+  color: #171718;
+  width: 100%;
+}
 .sidebar {
   padding: 55px 0 0 35px;
 }
