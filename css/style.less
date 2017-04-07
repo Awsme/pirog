@@ -91,7 +91,9 @@ div[class*="col-"] {
 	display: table;
 	clear: both;
 }
-
+.col-1 {
+	width: 8.333333333%;
+}
 .col-2 {
 	width: 16.66666667%;
 }
@@ -103,6 +105,9 @@ div[class*="col-"] {
 }
 .col-6 {
 	width: 50%;
+}
+.col-7 {
+	width: 58.33333333%;
 }
 .col-8 {
 	width: 66.66666667%
@@ -716,22 +721,23 @@ div[class*="col-"] {
 			.woocommerce-billing-fields {
 				color: #535356;
 				font-size: 13px;
-				h3 {
-				}
 			}
 			.woocommerce-billing-fields__field-wrapper {
 				p {
+					margin-bottom: 20px;
 					label {
 						color: #535356;
 						font-size: 13px;
 						display: block;
 						line-height: 1;
+						margin-bottom: 10px;
 					}
 					input, select {
 						box-sizing: border-box;
 						padding: 15px;
 						color: #171718;
 						width: 100%;
+						font-weight: bold;
 					}
 				}
 			}

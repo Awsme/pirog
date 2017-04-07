@@ -166,6 +166,9 @@ div[class*="col-"] {
   display: table;
   clear: both;
 }
+.col-1 {
+  width: 8.333333333%;
+}
 .col-2 {
   width: 16.66666667%;
 }
@@ -177,6 +180,9 @@ div[class*="col-"] {
 }
 .col-6 {
   width: 50%;
+}
+.col-7 {
+  width: 58.33333333%;
 }
 .col-8 {
   width: 66.66666667%;
@@ -770,11 +776,15 @@ div[class*="col-"] {
   color: #535356;
   font-size: 13px;
 }
+.content-main_info-cart .woocommerce-billing-fields__field-wrapper p {
+  margin-bottom: 20px;
+}
 .content-main_info-cart .woocommerce-billing-fields__field-wrapper p label {
   color: #535356;
   font-size: 13px;
   display: block;
   line-height: 1;
+  margin-bottom: 10px;
 }
 .content-main_info-cart .woocommerce-billing-fields__field-wrapper p input,
 .content-main_info-cart .woocommerce-billing-fields__field-wrapper p select {
@@ -782,6 +792,7 @@ div[class*="col-"] {
   padding: 15px;
   color: #171718;
   width: 100%;
+  font-weight: bold;
 }
 .sidebar {
   padding: 55px 0 0 35px;
