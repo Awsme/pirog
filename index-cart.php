@@ -119,7 +119,7 @@
 									</td>
 									<td class="product-price" data-title="Цена">
 										<span class="woocommerce-Price-amount amount">
-											123.00<span class="woocommerce-Price-currencySymbol">₴</span>
+											1 980<span class="woocommerce-Price-currencySymbol"> Р</span>
 										</span>
 									</td>
 									<td class="product-quantity" data-title="Количество">
@@ -129,63 +129,7 @@
 									</td>
 									<td class="product-subtotal" data-title="Итого">
 										<span class="woocommerce-Price-amount amount">
-											289,050.00
-											<span class="woocommerce-Price-currencySymbol">₴</span>													
-										</span>
-									</td>
-									<td class="product-remove">
-										<a href="#" class="remove" aria-label="Удалить эту позицию" data-product_id="8" data-product_sku="">×</a>
-									</td>
-								</tr>
-								<tr class="woocommerce-cart-form__cart-item cart_item">													
-									<td class="product-thumbnail">
-										<a href="#"><img src="images/cart-product-1.png" alt="Заполнитель" width="107" class="woocommerce-placeholder wp-post-image" height="80"></a>
-									</td>
-									<td class="product-name" data-title="Товар">
-										<a href="#">DNS test интересные вопросы</a>
-										<a href="#">ДНК тест для определения материнства</a>
-									</td>
-									<td class="product-price" data-title="Цена">
-										<span class="woocommerce-Price-amount amount">
-											123.00<span class="woocommerce-Price-currencySymbol">₴</span>
-										</span>
-									</td>
-									<td class="product-quantity" data-title="Количество">
-										<div class="quantity">
-											<input type="number" class="input-text qty text" step="1" min="0" max="" name="" value="2350" title="Кол-во" size="4" pattern="[0-9]*" inputmode="numeric">
-										</div>
-									</td>
-									<td class="product-subtotal" data-title="Итого">
-										<span class="woocommerce-Price-amount amount">
-											289,050.00
-											<span class="woocommerce-Price-currencySymbol">₴</span>													
-										</span>
-									</td>
-									<td class="product-remove">
-										<a href="#" class="remove" aria-label="Удалить эту позицию" data-product_id="8" data-product_sku="">×</a>
-									</td>
-								</tr>
-								<tr class="woocommerce-cart-form__cart-item cart_item">													
-									<td class="product-thumbnail">
-										<a href="#"><img src="images/cart-product-1.png" alt="Заполнитель" width="107" class="woocommerce-placeholder wp-post-image" height="80"></a>
-									</td>
-									<td class="product-name" data-title="Товар">
-										<a href="#">DNS test интересные вопросы</a>
-										<a href="#">ДНК тест для определения материнства</a>
-									</td>
-									<td class="product-price" data-title="Цена">
-										<span class="woocommerce-Price-amount amount">
-											123.00<span class="woocommerce-Price-currencySymbol">₴</span>
-										</span>
-									</td>
-									<td class="product-quantity" data-title="Количество">
-										<div class="quantity">
-											<input type="number" class="input-text qty text" step="1" min="0" max="" name="" value="2350" title="Кол-во" size="4" pattern="[0-9]*" inputmode="numeric">
-										</div>
-									</td>
-									<td class="product-subtotal" data-title="Итого">
-										<span class="woocommerce-Price-amount amount">
-											289,050.00
+											2 980
 											<span class="woocommerce-Price-currencySymbol">₴</span>													
 										</span>
 									</td>
@@ -202,7 +146,7 @@
 									</td>
 									<td class="product-price" data-title="Цена">
 										<span class="woocommerce-Price-amount amount">
-											123.00<span class="woocommerce-Price-currencySymbol">₴</span>
+											1 980<span class="woocommerce-Price-currencySymbol"> Р</span>
 										</span>
 									</td>
 									<td class="product-quantity" data-title="Количество">
@@ -212,7 +156,61 @@
 									</td>
 									<td class="product-subtotal" data-title="Итого">
 										<span class="woocommerce-Price-amount amount">
-											289,050.00
+											2 980
+											<span class="woocommerce-Price-currencySymbol">₴</span>													
+										</span>
+									</td>
+									<td class="product-remove">
+										<a href="#" class="remove" aria-label="Удалить эту позицию" data-product_id="8" data-product_sku="">×</a>
+									</td>
+								</tr>
+								<tr class="woocommerce-cart-form__cart-item cart_item">													
+									<td class="product-thumbnail">
+										<a href="#"><img src="images/cart-product-1.png" alt="Заполнитель" width="107" class="woocommerce-placeholder wp-post-image" height="80"></a>
+									</td>
+									<td class="product-name" data-title="Товар">
+										<a href="#">DNS test интересные вопросы</a>
+									</td>
+									<td class="product-price" data-title="Цена">
+										<span class="woocommerce-Price-amount amount">
+											1 980<span class="woocommerce-Price-currencySymbol"> Р</span>
+										</span>
+									</td>
+									<td class="product-quantity" data-title="Количество">
+										<div class="quantity">
+											<input type="number" class="input-text qty text" step="1" min="0" max="" name="" value="2350" title="Кол-во" size="4" pattern="[0-9]*" inputmode="numeric">
+										</div>
+									</td>
+									<td class="product-subtotal" data-title="Итого">
+										<span class="woocommerce-Price-amount amount">
+											2 980
+											<span class="woocommerce-Price-currencySymbol">₴</span>													
+										</span>
+									</td>
+									<td class="product-remove">
+										<a href="#" class="remove" aria-label="Удалить эту позицию" data-product_id="8" data-product_sku="">×</a>
+									</td>
+								</tr>
+								<tr class="woocommerce-cart-form__cart-item cart_item">													
+									<td class="product-thumbnail">
+										<a href="#"><img src="images/cart-product-1.png" alt="Заполнитель" width="107" class="woocommerce-placeholder wp-post-image" height="80"></a>
+									</td>
+									<td class="product-name" data-title="Товар">
+										<a href="#">DNS test интересные вопросы</a>
+									</td>
+									<td class="product-price" data-title="Цена">
+										<span class="woocommerce-Price-amount amount">
+											1 980<span class="woocommerce-Price-currencySymbol"> Р</span>
+										</span>
+									</td>
+									<td class="product-quantity" data-title="Количество">
+										<div class="quantity">
+											<input type="number" class="input-text qty text" step="1" min="0" max="" name="" value="2350" title="Кол-во" size="4" pattern="[0-9]*" inputmode="numeric">
+										</div>
+									</td>
+									<td class="product-subtotal" data-title="Итого">
+										<span class="woocommerce-Price-amount amount">
+											2 980
 											<span class="woocommerce-Price-currencySymbol">₴</span>													
 										</span>
 									</td>

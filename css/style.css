@@ -691,6 +691,11 @@ div[class*="col-"] {
 .content-main_info-cart {
   padding: 40px;
 }
+.content-main_info-cart h3 {
+  color: #2e3034;
+  font-size: 22px;
+  font-weight: 500;
+}
 .content-main_info-cart .woocommerce-cart-form {
   margin-top: 10px;
 }
@@ -720,6 +725,10 @@ div[class*="col-"] {
 }
 .content-main_info-cart .woocommerce-cart-form__contents .woocommerce-cart-form__cart-item .product-remove .remove:hover {
   color: #e3061f;
+}
+.content-main_info-cart .woocommerce-cart-form__contents .woocommerce-cart-form__cart-item .product-name a {
+  color: #2b405e;
+  font-size: 20px;
 }
 .content-main_info-cart .woocommerce-cart-form__contents td {
   vertical-align: middle;
