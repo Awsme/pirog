@@ -691,7 +691,7 @@ div[class*="col-"] {
 .content-main_info-cart {
   padding: 40px;
 }
-.content-main_info-cart h3 {
+.content-main_info-cart .cart-title {
   color: #2e3034;
   font-size: 22px;
   font-weight: 500;
@@ -761,6 +761,14 @@ div[class*="col-"] {
 }
 .content-main_info-cart .cart-collaterals .order-total {
   font-size: 16px;
+}
+.content-main_info-cart .woocommerce-checkout {
+  padding: 20px;
+  border: 1px solid #e6eaec;
+}
+.content-main_info-cart .woocommerce-billing-fields {
+  color: #535356;
+  font-size: 13px;
 }
 .sidebar {
   padding: 55px 0 0 35px;

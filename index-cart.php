@@ -98,8 +98,8 @@
 			<div class="container clearfix">
 				<div class="col-12">
 					<div class="content-main_info content-main_info-cart clearfix">
-						<h3>Всего в корзине есть покупки, оформите заказ, это очень просто</h3>
-						<p>Всего <span>2</span> товара в корзине</p>
+						<h3 class="cart-title">Всего в корзине есть покупки, оформите заказ, это очень просто</h3>
+						<p class="cart-descr">Всего <span>2</span> товара в корзине</p>
 						<form class="woocommerce-cart-form" action="http://woocommerce/cart/" method="post">					
 							<table class="shop_table shop_table_responsive cart woocommerce-cart-form__contents" cellspacing="0">
 								<tr>													
