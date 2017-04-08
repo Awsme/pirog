@@ -965,6 +965,90 @@ div[class*="col-"] {
 .footer-bottom-btn {
   float: right;
 }
+/*----- Popup ---------*/
+.center {
+  text-align: center;
+}
+.authorization-box {
+  position: relative;
+  background: #f5f6f8;
+  padding: 20px;
+  width: 570px;
+  margin: 150px auto 0;
+}
+.authorization-main {
+  background: #fff;
+}
+.authorization-main .title {
+  color: #2e3034;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.authorization-main .descr {
+  color: #78787a;
+  font-size: 15px;
+}
+.authorization-main-head,
+.authorization-main-form,
+.authorization-main-social {
+  border-bottom: 1px solid #f5f6f8;
+  padding: 30px 50px 15px;
+}
+.authorization-main-form .form-input {
+  margin-bottom: 10px;
+}
+.authorization-main-form .form-input-group-email {
+  padding-right: 12px;
+}
+.authorization-main-form .form-input-group-password {
+  padding-left: 12px;
+}
+.authorization-main-form label {
+  display: inline-block;
+  font-size: 15px;
+  color: #78787a;
+  margin-bottom: 10px;
+}
+.authorization-main-form input {
+  box-sizing: border-box;
+  padding: 15px;
+  color: #171718;
+  width: 100%;
+  border: 1px solid #e4e9eb;
+}
+.authorization-main-form input[type="checkbox"] {
+  width: auto;
+}
+.authorization-main-form .lost-pw {
+  color: #2b405e;
+  font-size: 13px;
+}
+.authorization-main-form .lost-pw:hover {
+  text-decoration: underline;
+}
+.authorization .social-title {
+  margin-bottom: 20px;
+}
+.authorization .social-list li {
+  display: inline-block;
+}
+.popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.34);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 99;
+}
+.popup-close {
+  position: absolute;
+  right: -57px;
+  top: 0;
+}
 /*----- Accordion -----*/
 .accordion,
 .accordion * {

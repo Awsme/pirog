@@ -18,6 +18,57 @@
 	
 </head>
 <body>
+<div class="popup authorization">
+	<div class="authorization-box">
+		<div class="popup-close">
+			<a href="#">
+				<img src="images/popup-close.png" alt="">
+			</a>
+		</div>
+		<div class="authorization-main">
+			<div class="popup-box authorization-main-head">
+				<h3 class="title">Войти на сайт</h3>
+				<p class="descr">Авторизация позволит Вам получить некоторые привелегии</p>
+			</div>
+			<div class="authorization-main-form">
+				<form action="">
+					<div class="form-input clearfix">
+						<div class="col-6">
+							<div class="form-input-group-email"><label for="email">Ваш e-mail</label><input type="email" id="email"></div>
+						</div>
+						<div class="col-6">
+							<div class="form-input-group-password"><label for="password">Ваш пароль <a href="#" class="lost-pw">забыли пароль?</a></label><input type="password" id="password"></div>
+						</div>
+					</div>
+					<div class="form-input clearfix">
+						<div class="col-12">
+							<div class="form-input-group"><input type="checkbox" id="remember" checked><label for="remember">Запомнить меня</label></div>
+						</div>
+					</div>
+					<div class="form-input clearfix">
+						<div class="col-12">
+							<div class="form-input-group center">
+								<a href="#" class="btn btn-large btn-style-1">Войти на сайт</a>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>			
+			<div class="authorization-main-social clearfix">
+				<div class="col-12">
+					<p class="social-title center">Или войдите через социальные сети</p>
+					<ul class="social-list center">
+						<li><a href="#"><img src="images/social-fb.png" alt=""></a></li>
+						<li><a href="#"><img src="images/social-tw.png" alt=""></a></li>
+						<li><a href="#"><img src="images/social-vk.png" alt=""></a></li>
+						<li><a href="#"><img src="images/social-ok.png" alt=""></a></li>
+						<li><a href="#"><img src="images/social-gp.png" alt=""></a></li>
+					</ul>
+				</div>
+			</div>		
+		</div>
+	</div>	
+</div>
 	<div class="wrapper">
 		<div class="wrapper-header">
 			<div class="container">
