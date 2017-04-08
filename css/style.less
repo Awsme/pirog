@@ -128,7 +128,7 @@ div[class*="col-"] {
 	width: 1170px;
 	margin: 0 auto;
 	@media screen and (max-width: 1280px) {
-		width: 960px;
+		//width: 960px;
 	}
 	@media screen and (max-width: 980px) {
 		width: 780px;
@@ -173,6 +173,31 @@ div[class*="col-"] {
 	color: #9faab4;
 	&:hover {
 		background: lighten(#d2e0eb, 10%);
+	}
+}
+.btn-style-3 {
+	background: #eff2f6;
+	font-size: 13px;
+	color: #5f6067;
+	&:hover {
+		background: darken(#eff2f6, 10%);
+	}
+	&:after {
+		content: "\f107";
+		font-family: FontAwesome;
+		font-size: 13px;
+		position: relative;
+		display: inline-block;
+		margin-left: 5px;
+	}
+}
+.btn-disabled {
+	background: #dfe3e9;
+	color: #fff;
+	cursor: not-allowed;
+	&:hover {
+		background: #dfe3e9;
+		color: #fff;
 	}
 }
 .center {
@@ -451,12 +476,21 @@ div[class*="col-"] {
 .content {
 	margin-top: -68px;
 	&-main_info {
-		padding: 50px 75px;
+		padding: 40px;
 		background: #fff;
 		border-radius: 10px;
 		box-shadow: 0px 12px 40px 0px rgba(0, 0, 0, 0.07);
 		border-bottom: 5px solid #f1f5f9;
 		margin-bottom: 55px;
+		&-heading {
+			color: #2e3034;
+			font-size: 22px;
+			line-height: 48px;
+			&-descr {
+				font-size: 	15px;
+				line-height: 30px;
+			}
+		}
 		p {
 			line-height: 30px;
 			font-size: 15px;
@@ -882,6 +916,28 @@ div[class*="col-"] {
 						width: 100%;
 						font-weight: bold;
 					}
+				}
+			}
+		}
+		.tests-list {
+			margin-bottom: 30px;
+			li {
+				padding: 25px 0;
+				border-bottom: 1px solid #eff1f3;
+				h3 {
+					color: #2b405e;
+					font-size: 20px;
+				}
+				p {
+					line-height: 26px;
+				}
+				.test_price {
+					font-size: 27px;
+					color: #000;
+				}
+				.test_currency {
+					font-size: 20px;
+					color: #6c6c6c;
 				}
 			}
 		}
