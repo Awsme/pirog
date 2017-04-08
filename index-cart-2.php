@@ -113,7 +113,8 @@
 						                            <span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-billing_country-container"><span class="select2-selection__rendered" id="select2-billing_country-container" title="Украина">Российская Федерация</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
 						                        </p>
 						                        <p class="form-row form-row-first validate-required woocommerce-invalid woocommerce-invalid-required-field" id="billing_first_name_field" data-sort="10"><label for="billing_first_name" class="">Фамилия Имя Отчество<abbr class="required" title="обязательно">*</abbr></label><input type="text" class="input-text " name="billing_first_name" id="billing_first_name" placeholder="" value="" autocomplete="given-name" autofocus="autofocus"></p>
-						                        <p class="form-row form-row-wide address-field validate-state validate-required" id="billing_state_field" data-sort="80" data-o_class="form-row form-row-wide address-field validate-required validate-state"><label for="billing_state" class="">Область/регион <abbr class="required" title="обязательно">*</abbr></label><input type="text" class="input-text " value="" placeholder="" name="billing_state" id="billing_state" autocomplete="address-level1"></p>
+						                        <p class="form-row form-row-wide address-field validate-state validate-required" id="billing_state_field" data-sort="80" data-o_class="form-row form-row-wide address-field validate-required validate-state"><label for="billing_state" class="">Область/регион <abbr class="required" title="обязательно">*</abbr></label>
+						                        <input type="text" class="input-text " value="" placeholder="" name="billing_state" id="billing_state" autocomplete="address-level1"></p>
 						                        <p class="form-row form-row-wide address-field validate-postcode validate-required" id="billing_postcode_field" data-sort="90" data-o_class="form-row form-row-wide address-field validate-required validate-postcode"><label for="billing_postcode" class="">Почтовый индекс <abbr class="required" title="обязательно">*</abbr></label><input type="text" class="input-text " name="billing_postcode" id="billing_postcode" placeholder="" value="" autocomplete="postal-code"></p>
 						                        <p class="form-row form-row-wide address-field validate-required" id="billing_address_1_field" data-sort="50"><label for="billing_address_1" class="">Адрес <abbr class="required" title="обязательно">*</abbr></label><input type="text" class="input-text " name="billing_address_1" id="billing_address_1" placeholder="Street address" value="" autocomplete="address-line1"></p>
 						                        <p class="form-row form-row-first validate-required validate-phone" id="billing_phone_field" data-sort="100"><label for="billing_phone" class="">Телефон <abbr class="required" title="обязательно">*</abbr></label><input type="tel" class="input-text " name="billing_phone" id="billing_phone" placeholder="" value="" autocomplete="tel"></p>
@@ -131,6 +132,77 @@
 						            </div>
 						            <div class="col-1">&nbsp;</div>
 						            <div class="col-7">
+							            <div class="woocommerce-checkout-block block-info">
+										    <h3 id="order_review_heading">Заказ</h3>
+										    <div id="order_review" class="woocommerce-checkout-review-order">
+										        <table class="shop_table woocommerce-checkout-review-order-table">
+										            <tbody>
+										                <tr class="cart_item">
+										                    <td class="product-name">
+										                        Dnk test 1&nbsp;<strong class="product-quantity">× 2</strong>
+										                    </td>
+										                    <td class="product-total">
+										                        <span class="woocommerce-Price-amount amount">13,000&nbsp;<span class="woocommerce-Price-currencySymbol">₽</span></span>						
+										                    </td>
+										                </tr>
+										            </tbody>
+										            <tfoot>
+										                <tr class="cart-subtotal">
+										                    <th>Подытог</th>
+										                    <td><span class="woocommerce-Price-amount amount">13,000&nbsp;<span class="woocommerce-Price-currencySymbol">₽</span></span></td>
+										                </tr>
+										                <tr class="shipping">
+										                    <th>Доставка</th>
+										                    <td data-title="Доставка">
+										                        <ul id="shipping_method">
+										                            <li>
+										                                <input type="radio" name="shipping_method[0]" data-index="0" id="shipping_method_0_local_pickup2" value="local_pickup:2" class="shipping_method">
+										                                <label for="shipping_method_0_local_pickup2">Самовывоз</label>					
+										                            </li>
+										                            <li>
+										                                <input type="radio" name="shipping_method[0]" data-index="0" id="shipping_method_0_flat_rate1" value="flat_rate:1" class="shipping_method" checked="checked">
+										                                <label for="shipping_method_0_flat_rate1">Доставка: <span class="woocommerce-Price-amount amount">650&nbsp;<span class="woocommerce-Price-currencySymbol">₽</span></span></label>					
+										                            </li>
+										                        </ul>
+										                    </td>
+										                </tr>
+										                <tr class="order-total">
+										                    <th>Итого</th>
+										                    <td><strong><span class="woocommerce-Price-amount amount">13,650&nbsp;<span class="woocommerce-Price-currencySymbol">₽</span></span></strong> </td>
+										                </tr>
+										            </tfoot>
+										        </table>
+									        </div>
+									        <div id="payment" class="woocommerce-checkout-payment">
+									            <ul class="wc_payment_methods payment_methods methods">
+									                <li class="wc_payment_method payment_method_cod">
+									                    <input id="payment_method_cod" type="radio" class="input-radio" name="payment_method" value="cod" data-order_button_text="">
+									                    <label for="payment_method_cod">
+									                    Оплата при доставке 	</label>
+									                    <div class="payment_box payment_method_cod" style="display:none;">
+									                        <p>Оплата наличными при доставке заказа.</p>
+									                    </div>
+									                </li>
+									                <li class="wc_payment_method payment_method_robokassa">
+									                    <input id="payment_method_robokassa" type="radio" class="input-radio" name="payment_method" value="robokassa" checked="checked" data-order_button_text="Оплатить">
+									                    <label for="payment_method_robokassa">
+									                    Робокасса <img src="http://dnk.fmt/wp-content/plugins/wc-robokassa//assets/img/robokassa.png" alt="Робокасса">	</label>
+									                    <div class="payment_box payment_method_robokassa">
+									                        <p>Оплатить с помощью Робокассы.</p>
+									                    </div>
+									                </li>
+									            </ul>
+									            <div class="form-row place-order">
+									                <noscript>
+									                    Поскольку ваш браузер не поддерживает JavaScript или в нем он отключен, просим убедиться в том, что вы нажали кнопку &lt;em&gt;Обновить итог&lt;/em&gt; перед регистрацией заказа. Иначе, есть риск неправильного подсчета стоимости.			&lt;br/&gt;&lt;input type="submit" class="button alt" name="woocommerce_checkout_update_totals" value="Обновить итог" /&gt;
+									                </noscript>
+									                <input type="submit" class="button alt" name="woocommerce_checkout_place_order" id="place_order" value="Оплатить" data-value="Подтвердить заказ">
+									                <input type="hidden" id="_wpnonce" name="_wpnonce" value="3b4d444c0c"><input type="hidden" name="_wp_http_referer" value="/checkout/?wc-ajax=update_order_review">	
+									            </div>
+									        </div>
+									    </div>
+									</div>
+						            <!-- <div class="col-7">
 						            	<div class="woocommerce-checkout-block block-info">
 						            		<h3 id="order_review_heading">Заказ</h3>
 						            		<table class="shop_table woocommerce-checkout-review-order-table">
@@ -175,7 +247,7 @@
 								                </div>
 								            </div>
 								        </div>
-						            </div>
+						            </div> -->
 						        </div>
 						    </form>
 						</div>

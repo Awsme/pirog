@@ -4,12 +4,14 @@
 	<meta charset="UTF-8">
 	<title>Site Title</title>
 	<link rel="stylesheet" href="css/style.css">
+	
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="http://allfont.ru/allfont.css?fonts=freeset-bold-cyrillic" rel="stylesheet" type="text/css" />
+	
 
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -107,7 +109,7 @@
 					</div>
 				</div>
 				<div class="header-bottom clearfix">
-					<div class="col-8">
+					<div class="col-8 col-md-9">
 						<ul class="header-bottom-nav">
 							<li><a href="index.php">Главная</a></li>
 							<li><a href="index-2.php">ДНК-Тест</a></li>
@@ -116,7 +118,7 @@
 							<li><a href="index-5.php">Контактные данные</a></li>
 						</ul>
 					</div>
-					<div class="col-4">
+					<div class="col-4 col-md-3">
 						<div class="header-bottom-btn">
 							<a href="#" class="btn btn-large btn-style-1">Заказать сейчас</a>
 						</div>
@@ -138,7 +140,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="top-content-offers clearfix">
+					<div class="row top-content-offers clearfix">
 						<div class="col-4">
 							<div class="top-content-offers-item">
 								<img src="images/top-content-img-2.png" alt="">
@@ -325,28 +327,32 @@
 							<div class="clearfix">
 								<div class="col-4">
 									<div class="form-group">
-										<label for="#" class="label">Ваше имя</label>
-										<input type="text" class="field">
+										<label for="#" class="cf-label">Ваше имя</label>
+										<input type="text" class="cf-input" value="Елизавета">
+									</div>
+								</div>
+								<div class="col-4">
+									<div class="form-group cf-select-arrow">
+										<label for="#" class="cf-label">Тип сообщения</label>
+										<select class="cf-input cf-select">
+											<option value="1">Консультация</option>
+											<option value="2">Консультация</option>
+											<option value="3">Консультация</option>
+										</select>
 									</div>
 								</div>
 								<div class="col-4">
 									<div class="form-group">
-										<label for="#" class="label">Тип сообщения</label>
-										<input type="text" class="field">
-									</div>
-								</div>
-								<div class="col-4">
-									<div class="form-group">
-										<label for="#" class="label">Ваш e-mail</label>
-										<input type="text" class="field">
+										<label for="#" class="cf-label">Ваш e-mail</label>
+										<input type="text" class="cf-input">
 									</div>
 								</div>
 							</div>
 							<div class="clearfix">
 								<div class="col-12">
 									<div class="form-group">
-										<label for="#" class="label">Сообщение</label>
-										<textarea name="" id="" class="message"></textarea>
+										<label for="#" class="cf-label">Сообщение</label>
+										<textarea name="" id="" class="message cf-textarea"></textarea>
 									</div>
 								</div>
 							</div>
@@ -409,6 +415,7 @@
 			</div>
 		</div>
 	</div>
+	<a href="#" class="back-to-top"></a>
 	<script>
 		$('.content-main_info-carousel').slick({
 			centerMode: true,

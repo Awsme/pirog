@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Site Title</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
@@ -22,7 +23,7 @@
 		<div class="wrapper-header">
 			<div class="container">
 				<div class="header-top clearfix">
-					<div class="col-3">
+					<div class="col-lg-3">
 						<div class="header-top-logo">
 							<a href="#">
 								<div class="header-top-logo-img"><img src="images/header-logo.png" alt="Logo"></div>
@@ -72,21 +73,21 @@
 					</div>
 				</div>
 				<section class="top-content">
-					<div class="row clearfix">
-						<div class="col-2">
+					<div class="row">
+						<div class="col-lg-2">
 							<div class="top-content-page-icon">
 								<img src="images/contacts-icon-1.png" alt="">
 							</div>
 						</div>
-						<div class="col-10">
+						<div class="col-lg-10">
 							<div class="top-content-info">
 								<div class="top-content-breadcrumbs">
 									<ul class="clearfix">
 										<li><a href="#">Главная</a></li>
-										<li><a href="#" class="active">Вопросы-ответы</a></li>
+										<li><a href="#" class="active">О компании</a></li>
 									</ul>
 								</div>
-								<h3>Контактные данные</h3>
+								<h3>Информация о нашей компании</h3>
 							</div>
 						</div>
 					</div>
@@ -94,45 +95,94 @@
 			</div>
 		</div>
 		<section class="content">
-			<div class="container clearfix">
-				<div class="col-8">
-					<div class="content-main_info contacts clearfix">
-						<div class="col-12">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="content-main_info content-main_info-special clearfix">
+							<div class="col-lg-12">
+								<h2>Мы работаем - чтобы вы знали точно ...</h2>
+								<p>Представители действительно единственные в своем роде, предлагая Помочь на всем пути от принятия решения о Отцовство тест через понимание вашего теста Результаты. Свяжитесь с нами.</p>
+								<img src="images/about-us-img-1.png" alt="">
+								<ul>
+									<li>
+										В большинстве стран для начала предпринимательства требуется официальная регистрация, но критерии и условия могут существенно различаться.
+									</li>
+									<li>
+										Согласно законодательству Российской Федерации, предпринимательство может осуществляться юридическим лицом или непосредственно физическим лицом (индивидуальным предпринимателем) после их регистрации в установленном законом порядке
+									</li>
+								</ul>
+								<p>
+									Этапом жизни бизнеса является формирование дееспособного предприятия и возможность продажи его. Купля-продажа может осуществляться как самим собственником, так и на открытом рынке готового бизнеса (с добавленной стоимостью, так и предприятия по цене активов).
+									Для понимания природы предпринимательства многое сделали Людвиг фон Мизес, Фридрих Август фон Хайек 
+								</p>
+								<a href="#" class="btn btn-medium btn-style-3"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="sidebar">
+							<h3>Нужна помощь?</h3>
+							<p class="phone-icon">Закажите обратный звонок, бесплатно проконсультируем</p>
+							<div class="sidebar-buttons">
+								<div class="sidebar-button">
+									<a href="#" class="btn btn-medium btn-style-2">Обратный звонок</a>
+								</div>
+								<div class="sidebar-button">
+									<a href="#" class="btn btn-medium btn-style-1">Заказать тест сейчас</a>
+								</div>
+							</div>
+							<div class="sidebar-partners">
+								<h3>Наши партнеры</h3>
+								<p>Только проверенные лаборотории</p>
+								<ul>
+									<li><a href="#"><img src="images/sidebar-partners-img-1.png" alt=""></a></li>
+									<li><a href="#"><img src="images/sidebar-partners-img-2.png" alt=""></a></li>
+									<li><a href="#"><img src="images/sidebar-partners-img-3.png" alt=""></a></li>
+								</ul>
+							</div>
+							<div class="sidebar-howto">
+								<h3>Как сделать тест?</h3>
+								<p>Полная инструкция по использованию теста и его применения</p>
+								<a href="#" class="btn btn-medium btn-style-2">Вопросы-ответы</a>
+							</div>
+						</div>
+					</div>
+				</div>	
+				<div class="content-main_info contacts">
+					<div class="row">
+						<div class="col-lg-6">
 							<h2>Контактные данные</h2>
-							<div class="contacts_info clearfix">
-								<div class="col-4">
+							<div class="contacts_info">
+								<div class="col-lg-6">
 									<div class="address">
 										<h3>Адрес</h3>
 										<p>Bolshaya Novodmitrovskaya ul., 36 Moscow, 127015</p>
-										<a href="#">Показать на карте</a>
 									</div>
-								</div>
-								<div class="col-4">
 									<div class="phone">
 										<h3>Номер телефона</h3>
 										<p>8 800 600-20-30</p>
 									</div>
 								</div>
-								<div class="col-4">
+								<div class="col-lg-6">
 									<div class="email">
 										<h3>Пишите нам</h3>
 										<p>info@dnkanalysis.com</p>
-										<a href="#" class="btn btn-medium btn-style-2">Заказать звонок</a>
+										<a href="#" class="btn btn-large btn-style-2">Заказать звонок</a>
 									</div>
 								</div>
 							</div>
-						</div>	
-						<div class="col-12 contact_form">
+						</div>
+						<div class="col-lg-6 contact_form">
 							<img src="images/content-img-2-icon.png" alt="">
 							<form action="#">
 								<div class="clearfix">
-									<div class="col-4">
+									<div class="col-lg-4">
 										<div class="form-group">
 											<label for="#" class="cf-label">Ваше имя</label>
 											<input type="text" class="cf-input" value="Елизавета">
 										</div>
 									</div>
-									<div class="col-4">
+									<div class="col-lg-4">
 										<div class="form-group cf-select-arrow">
 											<label for="#" class="cf-label">Тип сообщения</label>
 											<select class="cf-input cf-select">
@@ -142,7 +192,7 @@
 											</select>
 										</div>
 									</div>
-									<div class="col-4">
+									<div class="col-lg-4">
 										<div class="form-group">
 											<label for="#" class="cf-label">Ваш e-mail</label>
 											<input type="text" class="cf-input">
@@ -150,7 +200,7 @@
 									</div>
 								</div>
 								<div class="clearfix">
-									<div class="col-12">
+									<div class="col-lg-12">
 										<div class="form-group">
 											<label for="#" class="cf-label">Сообщение</label>
 											<textarea name="" id="" class="message cf-textarea"></textarea>
@@ -159,37 +209,9 @@
 								</div>
 								<a href="#" class="btn btn-large btn-style-1">Отправить</a>
 							</form>
-						</div>						
-					</div>
-				</div>
-				<div class="col-4">
-					<div class="sidebar">
-						<h3>Нужна помощь?</h3>
-						<p class="phone-icon">Закажите обратный звонок, бесплатно проконсультируем</p>
-						<div class="sidebar-buttons">
-							<div class="sidebar-button">
-								<a href="#" class="btn btn-medium btn-style-2">Обратный звонок</a>
-							</div>
-							<div class="sidebar-button">
-								<a href="#" class="btn btn-medium btn-style-1">Заказать тест сейчас</a>
-							</div>
-						</div>
-						<div class="sidebar-partners">
-							<h3>Наши партнеры</h3>
-							<p>Только проверенные лаборотории</p>
-							<ul>
-								<li><a href="#"><img src="images/sidebar-partners-img-1.png" alt=""></a></li>
-								<li><a href="#"><img src="images/sidebar-partners-img-2.png" alt=""></a></li>
-								<li><a href="#"><img src="images/sidebar-partners-img-3.png" alt=""></a></li>
-							</ul>
-						</div>
-						<div class="sidebar-howto">
-							<h3>Как сделать тест?</h3>
-							<p>Полная инструкция по использованию теста и его применения</p>
-							<a href="#" class="btn btn-medium btn-style-2">Вопросы-ответы</a>
-						</div>
-					</div>
-				</div>
+						</div>	
+					</div>									
+				</div>			
 			</div>
 		</section>
 		<div class="footer">
