@@ -312,6 +312,7 @@ div[class*="col-"] {
   float: right;
 }
 .header-top-user_panel-link.cart {
+  transition: none;
   padding: 15px 20px 15px 35px;
   position: relative;
 }
@@ -326,6 +327,15 @@ div[class*="col-"] {
   top: 46%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
+}
+.header-top-user_panel-link.cart-active,
+.header-top-user_panel-link.cart:hover {
+  border: 1px solid #e33c8a;
+  color: #e33c8a;
+}
+.header-top-user_panel-link.cart-active:before,
+.header-top-user_panel-link.cart:hover:before {
+  background: url('../images/header-icon-4-hover.png');
 }
 .header-bottom {
   padding: 15px 0;

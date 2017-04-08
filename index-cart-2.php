@@ -52,7 +52,7 @@
 					<div class="col-3">
 						<div class="header-top-user_panel">
 							<a href="#" class="btn btn-medium btn-style-2">Войти</a>
-							<a href="#" class="header-top-user_panel-link cart btn btn-medium btn-style-2">Корзина</a>
+							<a href="#" class="header-top-user_panel-link cart cart-active btn btn-medium btn-style-2">Корзина</a>
 						</div>
 					</div>
 				</div>
