@@ -821,7 +821,6 @@ div[class*="col-"] {
 }
 .content-main_info-cart .woocommerce-Price-amount {
   font-weight: bold;
-  margin-left: 10px;
   font-size: 27px;
 }
 .content-main_info-cart .woocommerce-Price-currencySymbol {
@@ -856,20 +855,70 @@ div[class*="col-"] {
   padding: 20px 75px;
   border: 1px solid #e6eaec;
 }
+.content-main_info-cart .woocommerce-checkout-block.block-info td {
+  padding: 10px 0;
+}
 .content-main_info-cart .woocommerce-checkout-block.block-info h3 {
   color: #000;
   font-size: 17px;
+  line-height: 1.2;
   font-weight: bold;
+}
+.content-main_info-cart .woocommerce-checkout-block.block-info .cart_item .product-name {
+  color: #2b405e;
+  font-size: 15px;
+  line-height: 1.2;
+}
+.content-main_info-cart .woocommerce-checkout-block.block-info .cart_item .product-count {
+  font-size: 15px;
+  color: #929aa0;
 }
 .content-main_info-cart .woocommerce-checkout-block.block-info .order-total th,
 .content-main_info-cart .woocommerce-checkout-block.block-info .cart-subtotal th,
 .content-main_info-cart .woocommerce-checkout-block.block-info .shipping th {
   color: #535356;
   font-size: 13px;
+  text-align: left;
 }
-.content-main_info-cart .woocommerce-checkout-block.block-info .order-total .woocommerce-Price-amount.amount {
+.content-main_info-cart .woocommerce-checkout-block.block-info .woocommerce-Price-amount {
   color: #000;
   font-size: 18px;
+}
+.content-main_info-cart .woocommerce-checkout-block input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  -moz-opacity: 0;
+  -webkit-opacity: 0;
+  -o-opacity: 0;
+}
+.content-main_info-cart .woocommerce-checkout-block input[type="radio"] + label {
+  position: relative;
+  padding: 0 0 0 30px;
+  font-size: 16px;
+  line-height: 1;
+  margin: 0 0 20px 0;
+  color: #243238;
+  cursor: pointer;
+  border: none;
+  width: auto;
+}
+.content-main_info-cart .woocommerce-checkout-block input[type="radio"] + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 17px;
+  height: 17px;
+  background: url('../images/checkbox.png') no-repeat;
+}
+.content-main_info-cart .woocommerce-checkout-block input[type="radio"]:checked + label {
+  font-weight: bold;
+}
+.content-main_info-cart .woocommerce-checkout-block input[type="radio"]:checked + label:before {
+  background: url('../images/checkbox-checked.png') no-repeat;
+}
+.content-main_info-cart .woocommerce-checkout-block .wc_payment_method {
+  margin: 10px 0;
 }
 .content-main_info-cart .woocommerce-billing-fields {
   color: #535356;

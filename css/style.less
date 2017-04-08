@@ -756,7 +756,7 @@ div[class*="col-"] {
 			}
 			.woocommerce-Price-amount {
 				font-weight: bold;
-				margin-left: 10px;
+				//margin-left: 10px;
 				font-size: 27px;
 			}
 			.woocommerce-Price-currencySymbol {
@@ -780,8 +780,7 @@ div[class*="col-"] {
 				}
 				.order-total {
 					font-size: 16px;
-				}
-				
+				}				
 			}
 			.woocommerce-checkout {
 				padding: 20px;
@@ -790,23 +789,75 @@ div[class*="col-"] {
 					padding: 20px 75px;
 					border: 1px solid #e6eaec;
 					&.block-info {
+						td{
+							padding: 10px 0;
+						}
 						h3 {
 							color: #000;
 							font-size: 17px;
+							line-height: 1.2;
 							font-weight: bold;
+						}
+						.cart_item {
+							.product-name {
+								color: #2b405e;
+								font-size: 15px;
+								line-height: 1.2;
+							}
+							.product-count {
+								font-size: 15px;
+								color: #929aa0;
+							}
+
 						}
 						.order-total, .cart-subtotal, .shipping {
 							th {
 								color: #535356;
 								font-size: 13px;
+								text-align: left;
 							}
+							
 						}
-						.order-total {
-							.woocommerce-Price-amount.amount {
-								color: #000;
-								font-size: 18px;
-							}
+						.woocommerce-Price-amount {
+							color: #000;
+							font-size: 18px;
 						}
+					}
+					input[type="radio"] {
+						position: absolute;
+					    opacity: 0;
+					    -moz-opacity: 0;
+					    -webkit-opacity: 0;
+					    -o-opacity: 0;
+					}
+					input[type="radio"] + label {
+						position: relative;
+					    padding: 0 0 0 30px;
+					    font-size: 16px;
+					    line-height: 1;
+					    margin: 0 0 20px 0;
+					    color: #243238;
+					    cursor: pointer;
+					    border: none;
+					    width: auto;
+					    &:before {
+					    	content: "";
+				    	    position: absolute;
+						    left: 0;
+						    top: 0;
+						    width: 17px;
+						    height: 17px;
+					    	background: url('../images/checkbox.png') no-repeat;
+					    }
+					}
+					input[type="radio"]:checked + label {
+						font-weight: bold;
+						&:before {
+							background: url('../images/checkbox-checked.png') no-repeat;
+						}
+					}
+					.wc_payment_method {
+						margin: 10px 0;
 					}
 				}
 			}

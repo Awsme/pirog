@@ -132,8 +132,8 @@
 						            </div>
 						            <div class="col-1">&nbsp;</div>
 						            <div class="col-7">
-							            <div class="woocommerce-checkout-block block-info">
-										    <h3 id="order_review_heading">Заказ</h3>
+							            <!--<div class="woocommerce-checkout-block block-info">
+										     <h3 id="order_review_heading">Заказ</h3>
 										    <div id="order_review" class="woocommerce-checkout-review-order">
 										        <table class="shop_table woocommerce-checkout-review-order-table">
 										            <tbody>
@@ -186,7 +186,7 @@
 									                <li class="wc_payment_method payment_method_robokassa">
 									                    <input id="payment_method_robokassa" type="radio" class="input-radio" name="payment_method" value="robokassa" checked="checked" data-order_button_text="Оплатить">
 									                    <label for="payment_method_robokassa">
-									                    Робокасса <img src="http://dnk.fmt/wp-content/plugins/wc-robokassa//assets/img/robokassa.png" alt="Робокасса">	</label>
+									                    Робокасса </label>
 									                    <div class="payment_box payment_method_robokassa">
 									                        <p>Оплатить с помощью Робокассы.</p>
 									                    </div>
@@ -194,27 +194,25 @@
 									            </ul>
 									            <div class="form-row place-order">
 									                <noscript>
-									                    Поскольку ваш браузер не поддерживает JavaScript или в нем он отключен, просим убедиться в том, что вы нажали кнопку &lt;em&gt;Обновить итог&lt;/em&gt; перед регистрацией заказа. Иначе, есть риск неправильного подсчета стоимости.			&lt;br/&gt;&lt;input type="submit" class="button alt" name="woocommerce_checkout_update_totals" value="Обновить итог" /&gt;
+									                    Поскольку ваш браузер не поддерживает JavaScript или в нем он отключен, просим убедиться в том, что вы нажали кнопку &lt;em&gt;Обновить итог&lt;/em&gt; перед регистрацией заказа. Иначе, есть риск неправильного подсчета стоимости. &lt;br/&gt;&lt;input type="submit" class="button alt" name="woocommerce_checkout_update_totals" value="Обновить итог" /&gt;
 									                </noscript>
 									                <input type="submit" class="button alt" name="woocommerce_checkout_place_order" id="place_order" value="Оплатить" data-value="Подтвердить заказ">
 									                <input type="hidden" id="_wpnonce" name="_wpnonce" value="3b4d444c0c"><input type="hidden" name="_wp_http_referer" value="/checkout/?wc-ajax=update_order_review">	
 									            </div>
 									        </div>
-									    </div>
-									</div>
-						            <!-- <div class="col-7">
-						            	<div class="woocommerce-checkout-block block-info">
+									    </div> -->
+									    <div class="woocommerce-checkout-block block-info">
 						            		<h3 id="order_review_heading">Заказ</h3>
 						            		<table class="shop_table woocommerce-checkout-review-order-table">
 								                <tbody>
 								                    <tr class="cart_item">
 								                        <td class="product-name">
-								                            1  Тест ДНК elegance самое интересное
+								                            <span class="product-count">1</span>  Тест ДНК elegance самое интересное
 								                        </td>
 								                    </tr>
 								                    <tr class="cart_item">
 								                        <td class="product-name">
-								                        	2  Еlegance самое интересное									
+								                        	<span class="product-count">2</span>  Еlegance самое интересное									
 								                        </td>
 								                    </tr>
 								                </tbody>
@@ -247,7 +245,7 @@
 								                </div>
 								            </div>
 								        </div>
-						            </div> -->
+									</div>
 						        </div>
 						    </form>
 						</div>
